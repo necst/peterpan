@@ -63,7 +63,7 @@ sudo apt install build-essential cmake git libgtk-3-dev pkg-config libavcodec-de
 ## FCCM26 Artifact Evaluation
 For artifact evaluation, see the [AE_peterpan.md](./AE_peterpan.md) file.
 
-Zenodo DOI: TO BE ADDED
+Zenodo DOI: [Link Zenodo](https://doi.org/10.5281/zenodo.19185342)
 
 ## Building
 
