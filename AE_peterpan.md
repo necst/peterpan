@@ -1,6 +1,6 @@
-# Artifact evaluation
+# Artifact Evaluation
 
-This document describes how to reproduce the results presented in the paper *"Soaring with PeterPan: an HW/SW Heterogeneous Accelerator for Multi-Modal Image Registration"*, submitted to the 33rd IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM 2025).
+This document describes how to reproduce the results presented in the paper "Adaptive AIE–PL Systems for Efficient End-to-End Pyramidal 3D Image Registration", submitted to the 34th IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM 2026).
 
 Specifically, we provide instructions on how to compile the host applications and run the experiments using the prepared bitstreams to reproduce the results presented in the paper.
 
@@ -8,7 +8,7 @@ The figures that can be reproduced are the following:
 
 - [Figure 6](#figure-6-registration-step) — Registration Step
 - [Figure 7](#figure-7-pyramidal-level-scaling) — Pyramidal Level Scaling
-- [Figure 8](#figure-8-end-to-end-pyramidal-3d-image-registration) — End-To-End Pyramidal 3D Image Registration
+- [Figure 8](#figure-8-end-to-end-pyramidal-3d-image-registration) — End-to-End Pyramidal 3D Image Registration
 
 ---
 
@@ -43,7 +43,7 @@ To close this gap, we propose **PeterPan**, a Versal-based accelerator for 3D ri
 
 ---
 
-# Experiments workflow
+# Experiments Workflow
 
 The folder `bitstreams/` contains the bitstreams used for the evaluation.
 
@@ -63,43 +63,39 @@ PIXELS_PER_READ := 32
 DS_PE := 8
 ```
 
-These parameters define the hardware architecture used in the artifact evaluation.
-
 ---
 
-# Preliminary steps
+# Preliminary Steps
 
-1. Clone the repository
+## 1. Clone the repository
 
 ```
 git clone https://github.com/necst/peterpan.git
 ```
 
-2. Move into the repository
+## 2. Move into the repository
 
 ```
 cd peterpan
 ```
 
-3. Source Vitis and XRT
+## 3. Source Vitis and XRT
 
 ```
 source <PATH_TO_XRT>/setup.sh
-source <PATH_TO_VITIS>/settings64.sh #Only for building a new bitstream
+source <PATH_TO_VITIS>/settings64.sh # Only for building a new bitstream
 ```
 
-4. Build PeterPan Design
+## 4. Build PeterPan Design
 
 ```
 make config
 make build_hw TARGET=hw TASK=STEP
 ```
 
-4a. OpenCV, ITK and PyENV Installation
+## 4a. Dependencies Installation
 
-4a.1 OpenCV Installation
-
-To install OpenCV on your machine, use the following commands:
+### 4a.1 OpenCV Installation
 
 ```
 mkdir ~/opencv_build && cd ~/opencv_build
@@ -112,38 +108,38 @@ cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_
 make -j
 make install
 ```
-To add your OpenCV to the PATH through the .bashrc file, modify the .bashrc file as follows:
+
+To add OpenCV to the PATH through the `.bashrc` file:
 
 ```
 export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig:$PKG_CONFIG_PATH
 export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
 ```
 
-Depending on the system, some sub-dependencies may be needed:
+Optional dependencies:
+
 ```
 sudo apt install build-essential cmake git libgtk-3-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev openexr libatlas-base-dev libopenexr-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev python3-dev python3-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-dev gfortran -y
 ```
 
-4a.2 ITK Installation
-
-To install ITK on your machine, use the following commands:
+### 4a.2 ITK Installation
 
 ```
-wget https://codeload.github.com/InsightSoftwareConsortium/ITK/zip/refs/tags/v5.3.0 // Download the 5.3 version for the dependency issue
+wget https://codeload.github.com/InsightSoftwareConsortium/ITK/zip/refs/tags/v5.3.0
 unzip v5.3.0
 cd ITK-5.3.0
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j$(nproc)
 ```
-If you are a sudoers user, you can use the following commands:
+
+Alternatively:
+
 ```
 sudo apt install libinsighttoolkit5-dev
 ```
 
-4a.3 PyENV Installation
-
-To install PyENV on your machine, use the following commands:
+### 4a.3 PyENV Installation
 
 ```
 sudo apt update; sudo apt install make build-essential libssl-dev zlib1g-dev \
@@ -157,7 +153,8 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-5. Prepare the build
+## 5. Prepare the build
+
 ```
 export PATH=/usr/bin:$PATH
 export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig:$PKG_CONFIG_PATH
@@ -166,92 +163,89 @@ export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
 ./prepare.sh
 ```
 
-This will create the `build/` directory containing the .zip files for the two experiments
+This will create the `build/` directory containing the `.zip` files for the experiments.
 
-6. Move the `build/` directory to the deploy machine.
+## 6. Deployment
+
+Move the `build/` directory to the deployment machine.
 
 ---
 
 # Figure 6: Image Registration Step Comparison
-
-Once the files are prepared through STEP 4, move the PeterPan_STEP folder to the deploy machine. 
-Then, run the following commands:
 
 ```
 unzip PeterPan_STEP
 cd build/PeterPan_STEP/sw
 make build_sw
 ./run_registration_step.sh <device_id>
-``` 
+```
 
-- <device_id>: Device ID for the target platform
+- `<device_id>`: Device ID for the target platform
 
-The output image will be in the running folder, named figure6.pdf
+Output: `figure6.pdf`
 
 ---
 
-# Figure 7 & 8: Preliminary: 
+# Figure 7 & 8: Preliminary
 
 ```
 unzip PeterPan_APP
 cd build/PeterPan_APP
 chmod u+x ./dataset_downloader.sh
 ./dataset_downloader.sh
-``` 
+```
+
+---
 
 # Figure 7: Pyramidal Levels Exploration
-
-Once the files are prepared through STEP 4, move the PeterPan_APP folder to the deploy machine. 
-Then, run the following commands (note that we set repetitions=1 to avoid long experiments -- paper results are averaged across 50 runs): 
 
 ```
 cd PeterPan_APP/3DIRG_Application/
 ./ae.sh HW <OpenCV_DIR> <ITK_DIR> <FIXED_images_dir> <MOVING_images_dir> <xclbin_path> <device_id> 7
 
-// An Example
+// Example
 ./ae.sh HW /home/USER/path/to/opencv/build/ /home/USER/path/to/ITK-5.3.0/build/ /home/USER/path/to/FIXED/ /home/USER/path/to/MOVING/ /home/USER/path/to/PeterPan.xclbin 0 7
 ```
- - <OpenCV_DIR>: Path to OpenCV CMake Config folder
- - <ITK_DIR>: Path to ITK CMake config folder
- - <fixed_images_dir>: Path to Fixed Images Folder
- - <moving_images_dir>: Path to Moving Images Folder
- - <xclbin_path>: Path to XCLBIN file
- - <device_id>: Device ID for the target platform
- - Experiment number -- corresponding to the paper figure
 
- The output image will be in the running folder, named figure7.pdf
+- `<OpenCV_DIR>`: Path to OpenCV CMake config folder  
+- `<ITK_DIR>`: Path to ITK CMake config folder  
+- `<FIXED_images_dir>`: Path to Fixed Images Folder  
+- `<MOVING_images_dir>`: Path to Moving Images Folder  
+- `<xclbin_path>`: Path to XCLBIN file  
+- `<device_id>`: Device ID for the target platform  
+- Experiment number corresponding to the paper figure  
+
+Output: `figure7.pdf`
 
 ---
 
 # Figure 8: End-To-End Image Registration
 
-Once the files are prepared through STEP 4, move the PeterPan_APP folder to the deploy machine. 
-Then, run the following commands: 
-
 ```
 cd PeterPan_APP/3DIRG_application/
 ```
+
 **PeterPan Rigid Registration**
 ```
-./ae.sh HW <opencv_dir> <itk_dir> <ct_folder> <pet_folder> <xclbin_path> <device_id> 8 auto
+./ae.sh HW <opencv_dir> <itk_dir> <FIXED_folder> <MOVING_folder> <xclbin_path> <device_id> 8 auto
 ```
+
 **PeterPan Only Pyramidal (No Subvolume extraction)**
 ```
-./ae.sh HW <opencv_dir> <itk_dir> <ct_folder> <pet_folder> <xclbin_path> <device_id> 8 fixed
+./ae.sh HW <opencv_dir> <itk_dir> <FIXED_folder> <MOVING_folder> <xclbin_path> <device_id> 8 fixed
 ```
-NOTE: 
 
-Only the auto will generate the figure 8.
+NOTE:
 
- - <OpenCV_DIR>: Path to OpenCV CMake Config folder
- - <ITK_DIR>: Path to ITK CMake config folder
- - <fixed_images_dir>: Path to Fixed Images Folder
- - <moving_images_dir>: Path to Moving Images Folder
- - <xclbin_path>: Path to XCLBIN file
- - <device_id>: Device ID for the target platform
- - Experiment number -- corresponding to the paper figure
- - mode subvolume selection: Fixed is None. 
+Only the `auto` mode generates Figure 8.
 
-  The output image will be in the running folder, named figure8.pdf
+- `<OpenCV_DIR>`: Path to OpenCV CMake config folder  
+- `<ITK_DIR>`: Path to ITK CMake config folder  
+- `<fixed_images_dir>`: Path to Fixed Images Folder  
+- `<moving_images_dir>`: Path to Moving Images Folder  
+- `<xclbin_path>`: Path to XCLBIN file  
+- `<device_id>`: Device ID for the target platform  
+- Experiment number corresponding to the paper figure  
+- Subvolume selection mode: `fixed` disables it  
 
----
+Output: `figure8.pdf`
