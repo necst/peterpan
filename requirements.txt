@@ -1,0 +1,6 @@
+pre_commit==4.3.0
+clang-format==21.1.2
+numpy
+# cogapp==3.3.0
+# CppHeaderParser==2.7.4
+# ply==3.11

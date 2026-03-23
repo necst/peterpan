@@ -1,0 +1,1226 @@
+
+
+BUFFER,FROM_INSTANCE.PORT,TO_INSTANCE.PORT,SIZE,MEMORY_GROUP,BANK,OFFSET,DMA_NEEDED
+buf215,aie_graph._dma[75].po0,aie_graph.k_mac_top[54].pi1,256,"(36, 2)",2,0,-
+buf590,p_ab_53.po0,aie_graph.k_mac_top[52].pi0,128,"(40, 2)",1,2112,-
+buf216,aie_graph._dma[76].po0,aie_graph.k_mac_top[55].pi1,256,"(37, 2)",0,0,-
+buf591,p_ab_54.po0,aie_graph.k_mac_top[53].pi0,128,"(42, 2)",1,8064,-
+buf213,aie_graph._dma[73].po0,aie_graph.k_mac_top[52].pi1,256,"(39, 2)",2,0,-
+buf64,p_ab_53.po0,aie_graph.k_mac_top[52].pi0,128,"(40, 2)",2,0,-
+buf592,p_ab_55.po0,aie_graph.k_mac_top[54].pi0,128,"(36, 2)",0,8064,-
+buf66,p_ab_55.po0,aie_graph.k_mac_top[54].pi0,128,"(36, 2)",1,8064,-
+buf593,p_ab_56.po0,aie_graph.k_mac_top[55].pi0,128,"(37, 2)",3,0,-
+sysmem366,-,-,6176,"(38, 2)",0,0,-
+sysmem365,-,-,6176,"(41, 2)",0,2016,-
+buf214,aie_graph._dma[74].po0,aie_graph.k_mac_top[53].pi1,256,"(42, 2)",0,7936,-
+buf168,aie_graph._dma[28].po0,aie_graph.k_mac_top[7].pi1,256,"(38, 0)",2,0,-
+buf542,p_ab_5.po0,aie_graph.k_mac_top[4].pi0,128,"(42, 1)",1,2112,-
+buf167,aie_graph._dma[27].po0,aie_graph.k_mac_top[6].pi1,256,"(37, 0)",0,7936,-
+buf19,p_ab_8.po0,aie_graph.k_mac_top[7].pi0,128,"(38, 0)",1,0,-
+buf543,p_ab_6.po0,aie_graph.k_mac_top[5].pi0,128,"(44, 0)",1,2112,-
+buf17,p_ab_6.po0,aie_graph.k_mac_top[5].pi0,128,"(44, 0)",2,0,-
+sysmem390,-,-,6176,"(37, 0)",1,0,-
+buf544,p_ab_7.po0,aie_graph.k_mac_top[6].pi0,128,"(37, 0)",1,8064,-
+buf693,aie_graph._dma[27].po0,aie_graph.k_mac_top[6].pi1,256,"(37, 0)",2,0,-
+buf18,p_ab_7.po0,aie_graph.k_mac_top[6].pi0,128,"(37, 0)",3,0,-
+buf545,p_ab_8.po0,aie_graph.k_mac_top[7].pi0,128,"(38, 0)",0,0,-
+sysmem379,-,-,6176,"(44, 0)",0,0,-
+sysmem409,-,-,6176,"(41, 1)",0,0,-
+sysmem368,-,-,6176,"(42, 1)",0,0,-
+buf692,aie_graph._dma[26].po0,aie_graph.k_mac_top[5].pi1,256,"(44, 1)",0,256,-
+buf196,aie_graph._dma[56].po0,aie_graph.k_mac_top[35].pi1,256,"(20, 4)",0,0,-
+buf44,p_ab_33.po0,aie_graph.k_mac_top[32].pi0,128,"(19, 7)",2,0,-
+buf571,p_ab_34.po0,aie_graph.k_mac_top[33].pi0,128,"(20, 7)",3,0,-
+buf570,p_ab_33.po0,aie_graph.k_mac_top[32].pi0,128,"(19, 7)",1,2112,-
+buf195,aie_graph._dma[55].po0,aie_graph.k_mac_top[34].pi1,256,"(19, 4)",2,0,-
+sysmem354,-,-,6176,"(19, 5)",2,256,-
+sysmem355,-,-,6176,"(20, 6)",0,0,-
+buf572,p_ab_35.po0,aie_graph.k_mac_top[34].pi0,128,"(19, 5)",0,0,-
+buf46,p_ab_35.po0,aie_graph.k_mac_top[34].pi0,128,"(19, 5)",1,8064,-
+buf573,p_ab_36.po0,aie_graph.k_mac_top[35].pi0,128,"(20, 5)",1,0,-
+buf193,aie_graph._dma[53].po0,aie_graph.k_mac_top[32].pi1,256,"(19, 6)",2,0,-
+buf194,aie_graph._dma[54].po0,aie_graph.k_mac_top[33].pi1,256,"(20, 7)",0,0,-
+buf614,p_ab_77.po0,aie_graph.k_mac_top[76].pi0,128,"(19, 0)",3,0,-
+buf239,aie_graph._dma[99].po0,aie_graph.k_mac_top[78].pi1,256,"(20, 0)",2,0,-
+buf615,p_ab_78.po0,aie_graph.k_mac_top[77].pi0,128,"(19, 2)",1,2112,-
+buf240,aie_graph._dma[100].po0,aie_graph.k_mac_top[79].pi1,256,"(20, 2)",2,0,-
+buf90,p_ab_79.po0,aie_graph.k_mac_top[78].pi0,128,"(20, 0)",0,0,-
+sysmem429,-,-,6176,"(19, 1)",1,2016,-
+buf238,aie_graph._dma[98].po0,aie_graph.k_mac_top[77].pi1,256,"(19, 3)",0,0,-
+buf617,p_ab_80.po0,aie_graph.k_mac_top[79].pi0,128,"(20, 1)",3,0,-
+buf237,aie_graph._dma[97].po0,aie_graph.k_mac_top[76].pi1,256,"(19, 0)",0,0,-
+buf763,aie_graph._dma[97].po0,aie_graph.k_mac_top[76].pi1,256,"(19, 0)",1,4256,-
+buf616,p_ab_79.po0,aie_graph.k_mac_top[78].pi0,128,"(20, 0)",1,0,-
+sysmem378,-,-,6176,"(19, 1)",0,0,-
+buf89,p_ab_78.po0,aie_graph.k_mac_top[77].pi0,128,"(19, 2)",2,0,-
+buf766,aie_graph._dma[100].po0,aie_graph.k_mac_top[79].pi1,256,"(20, 2)",1,2144,-
+buf765,aie_graph._dma[99].po0,aie_graph.k_mac_top[78].pi1,256,"(20, 0)",3,0,-
+buf562,p_ab_25.po0,aie_graph.k_mac_top[24].pi0,128,"(8, 3)",0,0,-
+buf187,aie_graph._dma[47].po0,aie_graph.k_mac_top[26].pi1,256,"(10, 3)",2,0,-
+buf188,aie_graph._dma[48].po0,aie_graph.k_mac_top[27].pi1,256,"(12, 4)",0,0,-
+buf563,p_ab_26.po0,aie_graph.k_mac_top[25].pi0,128,"(8, 5)",1,0,-
+buf565,p_ab_28.po0,aie_graph.k_mac_top[27].pi0,128,"(12, 4)",3,0,-
+buf36,p_ab_25.po0,aie_graph.k_mac_top[24].pi0,128,"(8, 3)",1,0,-
+sysmem469,-,-,6176,"(19, 4)",1,0,-
+buf711,aie_graph._dma[45].po0,aie_graph.k_mac_top[24].pi1,256,"(7, 3)",1,0,-
+sysmem350,-,-,6176,"(8, 3)",2,0,-
+sysmem415,-,-,6176,"(9, 3)",0,2016,-
+buf277,aie_graph._dma[137].po0,aie_graph.k_mac_top[116].pi1,256,"(31, 6)",2,0,-
+sysmem381,-,-,6176,"(34, 6)",1,0,-
+buf92,p_ab_81.po0,aie_graph.k_mac_top[80].pi0,128,"(34, 6)",3,0,-
+buf27,p_ab_16.po0,aie_graph.k_mac_top[15].pi0,128,"(14, 0)",2,0,-
+sysmem403,-,-,6176,"(32, 7)",0,0,-
+sysmem382,-,-,6176,"(33, 7)",0,2016,-
+buf244,aie_graph._dma[104].po0,aie_graph.k_mac_top[83].pi1,256,"(34, 5)",2,0,-
+buf541,p_ab_4.po0,aie_graph.k_mac_top[3].pi0,128,"(31, 2)",1,0,-
+buf808,aie_graph._dma[142].po0,aie_graph.k_mac_top[121].pi1,256,"(25, 5)",1,4256,-
+buf789,aie_graph._dma[123].po0,aie_graph.k_mac_top[102].pi1,256,"(23, 1)",1,6176,-
+buf203,aie_graph._dma[63].po0,aie_graph.k_mac_top[42].pi1,256,"(26, 5)",0,7936,-
+buf575,p_ab_38.po0,aie_graph.k_mac_top[37].pi0,128,"(25, 2)",1,2112,-
+buf93,p_ab_82.po0,aie_graph.k_mac_top[81].pi0,128,"(35, 6)",1,0,-
+sysmem431,-,-,6176,"(23, 1)",0,0,-
+buf802,aie_graph._dma[136].po0,aie_graph.k_mac_top[115].pi1,256,"(27, 1)",2,0,-
+buf535,aie_graph.k_transform_BR.po0,BR.pi0,128,"(5, 2)",2,128,-
+sysmem417,-,-,6176,"(19, 5)",0,128,-
+sysmem515,-,-,6176,"(7, 2)",1,1888,-
+buf274,aie_graph._dma[134].po0,aie_graph.k_mac_top[113].pi1,256,"(29, 0)",2,0,-
+buf577,p_ab_40.po0,aie_graph.k_mac_top[39].pi0,128,"(26, 0)",0,4032,-
+buf205,aie_graph._dma[65].po0,aie_graph.k_mac_top[44].pi1,256,"(36, 4)",2,0,-
+buf183,aie_graph._dma[43].po0,aie_graph.k_mac_top[22].pi1,256,"(29, 7)",2,0,-
+buf70,p_ab_59.po0,aie_graph.k_mac_top[58].pi0,128,"(18, 7)",3,0,-
+buf576,p_ab_39.po0,aie_graph.k_mac_top[38].pi0,128,"(25, 0)",1,2112,-
+buf204,aie_graph._dma[64].po0,aie_graph.k_mac_top[43].pi1,256,"(26, 0)",3,0,-
+buf182,aie_graph._dma[42].po0,aie_graph.k_mac_top[21].pi1,256,"(28, 5)",0,0,-
+buf49,p_ab_38.po0,aie_graph.k_mac_top[37].pi0,128,"(25, 2)",2,0,-
+buf59,p_ab_48.po0,aie_graph.k_mac_top[47].pi0,128,"(41, 3)",2,0,-
+buf580,p_ab_43.po0,aie_graph.k_mac_top[42].pi0,128,"(26, 6)",1,0,-
+buf41,p_ab_30.po0,aie_graph.k_mac_top[29].pi0,128,"(36, 5)",2,0,-
+buf208,aie_graph._dma[68].po0,aie_graph.k_mac_top[47].pi1,256,"(42, 3)",1,0,-
+buf275,aie_graph._dma[135].po0,aie_graph.k_mac_top[114].pi1,256,"(28, 0)",2,0,-
+buf762,aie_graph._dma[96].po0,aie_graph.k_mac_top[75].pi1,256,"(23, 7)",1,0,-
+buf53,p_ab_42.po0,aie_graph.k_mac_top[41].pi0,128,"(28, 1)",3,0,-
+buf52,p_ab_41.po0,aie_graph.k_mac_top[40].pi0,128,"(27, 6)",2,0,-
+buf707,aie_graph._dma[41].po0,aie_graph.k_mac_top[20].pi1,256,"(27, 7)",1,2144,-
+buf678,aie_graph._dma[12].po0,aie_graph.k_transform_TR.pi0,128,"(7, 2)",3,128,-
+buf55,p_ab_44.po0,aie_graph.k_mac_top[43].pi0,128,"(26, 1)",1,0,-
+sysmem467,-,-,6176,"(19, 6)",0,0,-
+sysmem348,-,-,6176,"(27, 6)",0,0,-
+buf612,p_ab_75.po0,aie_graph.k_mac_top[74].pi0,128,"(21, 5)",0,0,-
+buf555,p_ab_18.po0,aie_graph.k_mac_top[17].pi0,128,"(6, 7)",1,2112,-
+buf32,p_ab_21.po0,aie_graph.k_mac_top[20].pi0,128,"(27, 5)",1,0,-
+buf708,aie_graph._dma[42].po0,aie_graph.k_mac_top[21].pi1,256,"(28, 5)",1,0,-
+sysmem358,-,-,6176,"(24, 0)",0,0,-
+buf0,params.po0,aie_graph.k_coordinates_co.pi0,64,"(4, 2)",3,0,-
+sysmem293,-,-,6176,"(41, 6)",0,1760,-
+buf769,aie_graph._dma[103].po0,aie_graph.k_mac_top[82].pi1,256,"(33, 6)",0,0,-
+buf282,aie_graph._dma[142].po0,aie_graph.k_mac_top[121].pi1,256,"(25, 5)",0,0,-
+buf84,p_ab_73.po0,aie_graph.k_mac_top[72].pi0,128,"(22, 4)",2,0,-
+buf273,aie_graph._dma[133].po0,aie_graph.k_mac_top[112].pi1,256,"(29, 2)",1,0,-
+buf45,p_ab_34.po0,aie_graph.k_mac_top[33].pi0,128,"(20, 7)",2,0,-
+buf760,aie_graph._dma[94].po0,aie_graph.k_mac_top[73].pi1,256,"(23, 5)",1,0,-
+sysmem488,-,-,6176,"(40, 2)",0,0,-
+buf730,aie_graph._dma[64].po0,aie_graph.k_mac_top[43].pi1,256,"(26, 0)",1,0,-
+buf137,p_ab_126.po0,aie_graph.k_mac_top[125].pi0,128,"(14, 7)",2,0,-
+buf96,p_ab_85.po0,aie_graph.k_mac_top[84].pi0,128,"(22, 0)",2,0,-
+sysmem399,-,-,6176,"(28, 0)",0,128,-
+buf801,aie_graph._dma[135].po0,aie_graph.k_mac_top[114].pi1,256,"(28, 0)",1,0,-
+sysmem516,-,-,6176,"(19, 2)",0,0,-
+sysmem418,-,-,6176,"(24, 1)",1,0,-
+buf181,aie_graph._dma[41].po0,aie_graph.k_mac_top[20].pi1,256,"(27, 7)",2,0,-
+buf140,aie_graph.k_coordinates_co.po0,aie_graph._dma[0].pi0,128,"(4, 2)",1,0,-
+buf581,p_ab_44.po0,aie_graph.k_mac_top[43].pi0,128,"(26, 1)",0,0,-
+buf209,aie_graph._dma[69].po0,aie_graph.k_mac_top[48].pi1,256,"(17, 5)",0,0,-
+buf276,aie_graph._dma[136].po0,aie_graph.k_mac_top[115].pi1,256,"(27, 1)",0,7936,-
+sysmem296,-,-,6176,"(40, 5)",0,0,-
+sysmem422,-,-,6176,"(39, 2)",0,0,-
+sysmem520,-,-,6176,"(35, 6)",2,0,-
+buf807,aie_graph._dma[141].po0,aie_graph.k_mac_top[120].pi1,256,"(26, 7)",1,2144,-
+buf554,p_ab_17.po0,aie_graph.k_mac_top[16].pi0,128,"(4, 6)",0,0,-
+buf207,aie_graph._dma[67].po0,aie_graph.k_mac_top[46].pi1,256,"(39, 4)",2,0,-
+sysmem398,-,-,6176,"(29, 1)",1,0,-
+sysmem290,-,-,6176,"(1, 3)",2,128,-
+buf574,p_ab_37.po0,aie_graph.k_mac_top[36].pi0,128,"(24, 2)",1,2112,-
+buf202,aie_graph._dma[62].po0,aie_graph.k_mac_top[41].pi1,256,"(28, 1)",0,7936,-
+buf63,p_ab_52.po0,aie_graph.k_mac_top[51].pi0,128,"(15, 2)",3,0,-
+sysmem292,-,-,6176,"(21, 0)",1,0,-
+buf799,aie_graph._dma[133].po0,aie_graph.k_mac_top[112].pi1,256,"(29, 2)",0,256,-
+sysmem517,-,-,6176,"(20, 1)",2,0,-
+sysmem419,-,-,6176,"(26, 3)",0,0,-
+sysmem359,-,-,6176,"(27, 3)",0,0,-
+buf660,p_ab_123.po0,aie_graph.k_mac_top[122].pi0,128,"(24, 5)",1,8064,-
+buf659,p_ab_122.po0,aie_graph.k_mac_top[121].pi0,128,"(25, 5)",3,0,-
+buf120,p_ab_109.po0,aie_graph.k_mac_top[108].pi0,128,"(17, 0)",2,0,-
+sysmem414,-,-,6176,"(29, 5)",0,0,-
+sysmem405,-,-,6176,"(24, 6)",1,0,-
+buf658,p_ab_121.po0,aie_graph.k_mac_top[120].pi0,128,"(25, 6)",1,2112,-
+buf166,aie_graph._dma[26].po0,aie_graph.k_mac_top[5].pi1,256,"(44, 1)",1,0,-
+sysmem325,-,-,6176,"(30, 7)",0,0,-
+sysmem455,-,-,6176,"(28, 6)",0,0,-
+sysmem456,-,-,6176,"(29, 6)",0,0,-
+sysmem326,-,-,6176,"(31, 6)",0,1760,-
+buf135,p_ab_124.po0,aie_graph.k_mac_top[123].pi0,128,"(25, 7)",3,0,-
+buf94,p_ab_83.po0,aie_graph.k_mac_top[82].pi0,128,"(33, 5)",2,0,-
+buf560,p_ab_23.po0,aie_graph.k_mac_top[22].pi0,128,"(28, 7)",1,0,-
+buf241,aie_graph._dma[101].po0,aie_graph.k_mac_top[80].pi1,256,"(34, 6)",0,7936,-
+buf613,p_ab_76.po0,aie_graph.k_mac_top[75].pi0,128,"(22, 7)",1,0,-
+buf688,aie_graph._dma[22].po0,aie_graph.k_mac_top[1].pi1,256,"(30, 5)",3,0,-
+buf134,p_ab_123.po0,aie_graph.k_mac_top[122].pi0,128,"(24, 5)",3,0,-
+sysmem411,-,-,6176,"(13, 1)",0,0,-
+buf236,aie_graph._dma[96].po0,aie_graph.k_mac_top[75].pi1,256,"(23, 7)",0,0,-
+buf608,p_ab_71.po0,aie_graph.k_mac_top[70].pi0,128,"(45, 3)",1,2112,-
+buf272,aie_graph._dma[132].po0,aie_graph.k_mac_top[111].pi1,256,"(17, 1)",2,0,-
+buf759,aie_graph._dma[93].po0,aie_graph.k_mac_top[72].pi1,256,"(23, 4)",1,2144,-
+buf662,p_ab_125.po0,aie_graph.k_mac_top[124].pi0,128,"(13, 5)",1,2112,-
+buf5,aie_graph.k_coeff_Rj_inv.po0,aie_graph.k_merger_1_j.pi1,128,"(0, 4)",0,8064,-
+buf758,aie_graph._dma[92].po0,aie_graph.k_mac_top[71].pi1,256,"(42, 3)",3,0,-
+buf24,p_ab_13.po0,aie_graph.k_mac_top[12].pi0,128,"(13, 2)",3,0,-
+buf600,p_ab_63.po0,aie_graph.k_mac_top[62].pi0,128,"(5, 1)",3,0,-
+buf228,aie_graph._dma[88].po0,aie_graph.k_mac_top[67].pi1,256,"(45, 5)",2,0,-
+sysmem369,-,-,6176,"(18, 6)",3,128,-
+buf530,aie_graph.k_coeff_Rj.po0,aie_graph.k_merger_1_j.pi0,128,"(1, 5)",3,0,-
+buf284,aie_graph._dma[144].po0,aie_graph.k_mac_top[123].pi1,256,"(25, 7)",0,7936,-
+buf771,aie_graph._dma[105].po0,aie_graph.k_mac_top[84].pi1,256,"(23, 0)",1,2144,-
+buf651,p_ab_114.po0,aie_graph.k_mac_top[113].pi0,128,"(29, 0)",1,0,-
+buf34,p_ab_23.po0,aie_graph.k_mac_top[22].pi0,128,"(28, 7)",0,0,-
+buf264,aie_graph._dma[124].po0,aie_graph.k_mac_top[103].pi1,256,"(22, 2)",2,0,-
+buf173,aie_graph._dma[33].po0,aie_graph.k_mac_top[12].pi1,256,"(13, 2)",0,7936,-
+buf642,p_ab_105.po0,aie_graph.k_mac_top[104].pi0,128,"(7, 7)",1,2112,-
+buf201,aie_graph._dma[61].po0,aie_graph.k_mac_top[40].pi1,256,"(28, 5)",2,0,-
+buf589,p_ab_52.po0,aie_graph.k_mac_top[51].pi0,128,"(15, 2)",1,8064,-
+buf217,aie_graph._dma[77].po0,aie_graph.k_mac_top[56].pi1,256,"(17, 6)",2,0,-
+buf553,p_ab_16.po0,aie_graph.k_mac_top[15].pi0,128,"(14, 0)",0,1088,-
+buf123,p_ab_112.po0,aie_graph.k_mac_top[111].pi0,128,"(17, 0)",0,8064,-
+sysmem504,-,-,6176,"(5, 2)",3,128,-
+buf727,aie_graph._dma[61].po0,aie_graph.k_mac_top[40].pi1,256,"(28, 5)",3,0,-
+sysmem485,-,-,6176,"(16, 1)",1,0,-
+buf551,p_ab_14.po0,aie_graph.k_mac_top[13].pi0,128,"(14, 1)",0,0,-
+sysmem404,-,-,6176,"(25, 7)",1,0,-
+buf62,p_ab_51.po0,aie_graph.k_mac_top[50].pi0,128,"(15, 6)",2,0,-
+buf60,p_ab_49.po0,aie_graph.k_mac_top[48].pi0,128,"(17, 5)",2,0,-
+buf773,aie_graph._dma[107].po0,aie_graph.k_mac_top[86].pi1,256,"(21, 3)",1,2144,-
+buf149,aie_graph._dma[9].po0,aie_graph.k_coeff_Rj_inv.pi1,128,"(0, 5)",0,0,-
+buf122,p_ab_111.po0,aie_graph.k_mac_top[110].pi0,128,"(16, 2)",0,0,-
+buf656,p_ab_119.po0,aie_graph.k_mac_top[118].pi0,128,"(32, 7)",1,2112,-
+buf138,p_ab_127.po0,aie_graph.k_mac_top[126].pi0,128,"(14, 6)",2,0,-
+buf235,aie_graph._dma[95].po0,aie_graph.k_mac_top[74].pi1,256,"(21, 6)",1,0,-
+buf607,p_ab_70.po0,aie_graph.k_mac_top[69].pi0,128,"(41, 4)",1,0,-
+buf219,aie_graph._dma[79].po0,aie_graph.k_mac_top[58].pi1,256,"(18, 7)",0,7936,-
+buf588,p_ab_51.po0,aie_graph.k_mac_top[50].pi0,128,"(15, 6)",0,4032,-
+buf742,aie_graph._dma[76].po0,aie_graph.k_mac_top[55].pi1,256,"(37, 2)",1,4256,-
+sysmem500,-,-,6176,"(5, 0)",3,128,-
+buf48,p_ab_37.po0,aie_graph.k_mac_top[36].pi0,128,"(24, 2)",2,0,-
+buf145,aie_graph.k_coordinates_co.po1,aie_graph._dma[5].pi0,128,"(3, 2)",2,0,-
+buf245,aie_graph._dma[105].po0,aie_graph.k_mac_top[84].pi1,256,"(23, 0)",2,0,-
+buf618,p_ab_81.po0,aie_graph.k_mac_top[80].pi0,128,"(34, 6)",1,8064,-
+buf246,aie_graph._dma[106].po0,aie_graph.k_mac_top[85].pi1,256,"(21, 0)",2,0,-
+buf116,p_ab_105.po0,aie_graph.k_mac_top[104].pi0,128,"(7, 7)",2,0,-
+buf747,aie_graph._dma[81].po0,aie_graph.k_mac_top[60].pi1,256,"(11, 2)",3,0,-
+buf619,p_ab_82.po0,aie_graph.k_mac_top[81].pi0,128,"(35, 6)",0,0,-
+buf130,p_ab_119.po0,aie_graph.k_mac_top[118].pi0,128,"(32, 7)",2,0,-
+sysmem305,-,-,6176,"(35, 3)",3,0,-
+buf6,aie_graph.k_transform_TL.po0,TL.pi0,128,"(7, 2)",1,1760,-
+buf247,aie_graph._dma[107].po0,aie_graph.k_mac_top[86].pi1,256,"(21, 3)",2,0,-
+buf748,aie_graph._dma[82].po0,aie_graph.k_mac_top[61].pi1,256,"(8, 0)",1,4256,-
+sysmem340,-,-,6176,"(40, 1)",0,0,-
+sysmem459,-,-,6176,"(10, 3)",3,0,-
+sysmem329,-,-,6176,"(26, 5)",3,128,-
+buf223,aie_graph._dma[83].po0,aie_graph.k_mac_top[62].pi1,256,"(5, 1)",0,0,-
+buf595,p_ab_58.po0,aie_graph.k_mac_top[57].pi0,128,"(16, 6)",0,128,-
+sysmem308,-,-,6176,"(23, 2)",0,2016,-
+sysmem438,-,-,6176,"(17, 1)",0,0,-
+buf269,aie_graph._dma[129].po0,aie_graph.k_mac_top[108].pi1,256,"(18, 1)",2,0,-
+buf110,p_ab_99.po0,aie_graph.k_mac_top[98].pi0,128,"(35, 5)",2,0,-
+buf220,aie_graph._dma[80].po0,aie_graph.k_mac_top[59].pi1,256,"(18, 6)",0,7936,-
+sysmem370,-,-,6176,"(9, 0)",0,2016,-
+buf531,aie_graph.k_coeff_Rj_inv.po0,aie_graph.k_merger_1_j.pi1,128,"(0, 4)",2,256,-
+buf594,p_ab_57.po0,aie_graph.k_mac_top[56].pi0,128,"(18, 5)",1,2112,-
+buf222,aie_graph._dma[82].po0,aie_graph.k_mac_top[61].pi1,256,"(8, 0)",0,0,-
+buf129,p_ab_118.po0,aie_graph.k_mac_top[117].pi0,128,"(30, 6)",2,0,-
+buf587,p_ab_50.po0,aie_graph.k_mac_top[49].pi0,128,"(16, 0)",3,0,-
+buf661,p_ab_124.po0,aie_graph.k_mac_top[123].pi0,128,"(25, 7)",1,8064,-
+buf74,p_ab_63.po0,aie_graph.k_mac_top[62].pi0,128,"(5, 1)",2,0,-
+buf668,aie_graph._dma[2].po0,aie_graph.k_coeff_Ri_inv.pi0,128,"(2, 4)",1,0,-
+buf136,p_ab_125.po0,aie_graph.k_mac_top[124].pi0,128,"(13, 5)",2,0,-
+buf95,p_ab_84.po0,aie_graph.k_mac_top[83].pi0,128,"(34, 5)",0,0,-
+buf234,aie_graph._dma[94].po0,aie_graph.k_mac_top[73].pi1,256,"(23, 5)",0,0,-
+buf606,p_ab_69.po0,aie_graph.k_mac_top[68].pi0,128,"(44, 4)",1,0,-
+sysmem410,-,-,6176,"(2, 2)",1,0,-
+buf124,p_ab_113.po0,aie_graph.k_mac_top[112].pi0,128,"(29, 1)",2,0,-
+sysmem360,-,-,6176,"(26, 4)",0,0,-
+buf98,p_ab_87.po0,aie_graph.k_mac_top[86].pi0,128,"(21, 2)",2,0,-
+buf695,aie_graph._dma[29].po0,aie_graph.k_mac_top[8].pi1,256,"(2, 2)",2,0,-
+sysmem413,-,-,6176,"(3, 2)",0,0,-
+buf605,p_ab_68.po0,aie_graph.k_mac_top[67].pi0,128,"(44, 5)",1,0,-
+buf121,p_ab_110.po0,aie_graph.k_mac_top[109].pi0,128,"(18, 0)",2,0,-
+buf233,aie_graph._dma[93].po0,aie_graph.k_mac_top[72].pi1,256,"(23, 4)",2,0,-
+sysmem400,-,-,6176,"(30, 6)",1,0,-
+sysmem447,-,-,6176,"(14, 0)",0,2016,-
+buf158,aie_graph._dma[18].po0,aie_graph.k_transform_BL.pi1,128,"(6, 1)",1,0,-
+sysmem317,-,-,6176,"(16, 1)",0,2016,-
+buf257,aie_graph._dma[117].po0,aie_graph.k_mac_top[96].pi1,256,"(33, 3)",0,0,-
+buf125,p_ab_114.po0,aie_graph.k_mac_top[113].pi0,128,"(29, 0)",0,0,-
+buf251,aie_graph._dma[111].po0,aie_graph.k_mac_top[90].pi1,256,"(41, 6)",0,7936,-
+buf623,p_ab_86.po0,aie_graph.k_mac_top[85].pi0,128,"(22, 0)",1,0,-
+buf288,aie_graph._dma[148].po0,aie_graph.k_mac_top[127].pi1,256,"(15, 6)",3,0,-
+buf175,aie_graph._dma[35].po0,aie_graph.k_mac_top[14].pi1,256,"(14, 2)",1,0,-
+buf775,aie_graph._dma[109].po0,aie_graph.k_mac_top[88].pi1,256,"(41, 6)",0,736,-
+sysmem291,-,-,6176,"(8, 2)",0,0,-
+buf713,aie_graph._dma[47].po0,aie_graph.k_mac_top[26].pi1,256,"(10, 3)",3,6176,-
+sysmem352,-,-,6176,"(36, 5)",0,0,-
+sysmem471,-,-,6176,"(1, 3)",3,128,-
+buf47,p_ab_36.po0,aie_graph.k_mac_top[35].pi0,128,"(20, 5)",0,0,-
+buf534,aie_graph.k_transform_BL.po0,BL.pi0,128,"(6, 0)",1,2112,-
+sysmem373,-,-,6176,"(44, 7)",1,0,-
+buf811,aie_graph._dma[145].po0,aie_graph.k_mac_top[124].pi1,256,"(14, 5)",0,3968,-
+sysmem441,-,-,6176,"(24, 6)",0,2016,-
+sysmem311,-,-,6176,"(9, 7)",0,0,-
+buf682,aie_graph._dma[16].po0,aie_graph.k_transform_TL.pi1,128,"(6, 2)",3,128,-
+buf720,aie_graph._dma[54].po0,aie_graph.k_mac_top[33].pi1,256,"(20, 7)",1,4256,-
+sysmem478,-,-,6176,"(26, 2)",0,2016,-
+sysmem298,-,-,6176,"(35, 1)",0,0,-
+sysmem356,-,-,6176,"(24, 1)",0,2016,-
+buf283,aie_graph._dma[143].po0,aie_graph.k_mac_top[122].pi1,256,"(24, 5)",0,7936,-
+buf770,aie_graph._dma[104].po0,aie_graph.k_mac_top[83].pi1,256,"(34, 5)",3,0,-
+buf650,p_ab_113.po0,aie_graph.k_mac_top[112].pi0,128,"(29, 1)",0,1088,-
+buf263,aie_graph._dma[123].po0,aie_graph.k_mac_top[102].pi1,256,"(23, 1)",2,0,-
+buf641,p_ab_104.po0,aie_graph.k_mac_top[103].pi0,128,"(22, 1)",0,0,-
+buf200,aie_graph._dma[60].po0,aie_graph.k_mac_top[39].pi1,256,"(26, 1)",0,7936,-
+buf152,aie_graph._dma[12].po0,aie_graph.k_transform_TR.pi0,128,"(7, 2)",1,0,-
+buf739,aie_graph._dma[73].po0,aie_graph.k_mac_top[52].pi1,256,"(39, 2)",1,2144,-
+sysmem497,-,-,6176,"(10, 2)",2,0,-
+buf23,p_ab_12.po0,aie_graph.k_mac_top[11].pi0,128,"(9, 2)",2,0,-
+sysmem302,-,-,6176,"(6, 1)",1,128,-
+buf724,aie_graph._dma[58].po0,aie_graph.k_mac_top[37].pi1,256,"(25, 1)",0,3968,-
+sysmem482,-,-,6176,"(0, 4)",3,128,-
+buf676,aie_graph.k_coordinates_tr.po0,aie_graph._dma[10].pi0,128,"(6, 2)",2,0,-
+buf20,p_ab_9.po0,aie_graph.k_mac_top[8].pi0,128,"(2, 2)",3,0,-
+buf176,aie_graph._dma[36].po0,aie_graph.k_mac_top[15].pi1,256,"(15, 1)",0,0,-
+buf13,p_ab_2.po0,aie_graph.k_mac_top[1].pi0,128,"(31, 5)",1,0,-
+buf578,p_ab_41.po0,aie_graph.k_mac_top[40].pi0,128,"(27, 6)",1,2112,-
+buf206,aie_graph._dma[66].po0,aie_graph.k_mac_top[45].pi1,256,"(37, 3)",2,0,-
+buf75,p_ab_64.po0,aie_graph.k_mac_top[63].pi0,128,"(4, 0)",1,0,-
+buf741,aie_graph._dma[75].po0,aie_graph.k_mac_top[54].pi1,256,"(36, 2)",3,7936,-
+buf58,p_ab_47.po0,aie_graph.k_mac_top[46].pi0,128,"(40, 3)",0,0,-
+sysmem499,-,-,6176,"(5, 0)",2,256,-
+buf61,p_ab_50.po0,aie_graph.k_mac_top[49].pi0,128,"(16, 0)",2,0,-
+buf750,aie_graph._dma[84].po0,aie_graph.k_mac_top[63].pi1,256,"(5, 0)",2,0,-
+buf800,aie_graph._dma[134].po0,aie_graph.k_mac_top[113].pi1,256,"(29, 0)",3,0,-
+buf671,aie_graph.k_coordinates_co.po1,aie_graph._dma[5].pi0,128,"(3, 2)",1,6176,-
+buf548,p_ab_11.po0,aie_graph.k_mac_top[10].pi0,128,"(10, 2)",0,0,-
+buf797,aie_graph._dma[131].po0,aie_graph.k_mac_top[110].pi1,256,"(16, 0)",0,256,-
+buf649,p_ab_112.po0,aie_graph.k_mac_top[111].pi0,128,"(17, 0)",3,0,-
+buf262,aie_graph._dma[122].po0,aie_graph.k_mac_top[101].pi1,256,"(21, 4)",2,0,-
+buf171,aie_graph._dma[31].po0,aie_graph.k_mac_top[10].pi1,256,"(9, 2)",1,7936,-
+buf640,p_ab_103.po0,aie_graph.k_mac_top[102].pi0,128,"(23, 3)",1,0,-
+buf199,aie_graph._dma[59].po0,aie_graph.k_mac_top[38].pi1,256,"(25, 1)",3,0,-
+buf698,aie_graph._dma[32].po0,aie_graph.k_mac_top[11].pi1,256,"(8, 2)",1,2144,-
+sysmem363,-,-,6176,"(16, 3)",0,0,-
+buf798,aie_graph._dma[132].po0,aie_graph.k_mac_top[111].pi1,256,"(17, 1)",1,2144,-
+buf67,p_ab_56.po0,aie_graph.k_mac_top[55].pi0,128,"(37, 2)",2,0,-
+buf221,aie_graph._dma[81].po0,aie_graph.k_mac_top[60].pi1,256,"(11, 2)",2,0,-
+buf764,aie_graph._dma[98].po0,aie_graph.k_mac_top[77].pi1,256,"(19, 3)",1,0,-
+buf107,p_ab_96.po0,aie_graph.k_mac_top[95].pi0,128,"(32, 0)",2,0,-
+buf126,p_ab_115.po0,aie_graph.k_mac_top[114].pi0,128,"(27, 0)",1,0,-
+buf197,aie_graph._dma[57].po0,aie_graph.k_mac_top[36].pi1,256,"(24, 0)",2,0,-
+buf569,p_ab_32.po0,aie_graph.k_mac_top[31].pi0,128,"(38, 6)",0,0,-
+buf21,p_ab_10.po0,aie_graph.k_mac_top[9].pi0,128,"(12, 2)",3,0,-
+buf696,aie_graph._dma[30].po0,aie_graph.k_mac_top[9].pi1,256,"(12, 2)",2,0,-
+sysmem445,-,-,6176,"(13, 1)",3,0,-
+sysmem315,-,-,6176,"(17, 0)",0,1888,-
+buf156,aie_graph._dma[16].po0,aie_graph.k_transform_TL.pi1,128,"(6, 2)",0,8064,-
+buf218,aie_graph._dma[78].po0,aie_graph.k_mac_top[57].pi1,256,"(16, 7)",2,0,-
+buf740,aie_graph._dma[74].po0,aie_graph.k_mac_top[53].pi1,256,"(42, 2)",2,0,-
+sysmem498,-,-,6176,"(7, 0)",0,2016,-
+sysmem468,-,-,6176,"(19, 4)",0,0,-
+sysmem349,-,-,6176,"(29, 7)",0,0,-
+buf710,aie_graph._dma[44].po0,aie_graph.k_mac_top[23].pi1,256,"(29, 5)",1,2144,-
+buf749,aie_graph._dma[83].po0,aie_graph.k_mac_top[62].pi1,256,"(5, 1)",1,4256,-
+buf547,p_ab_10.po0,aie_graph.k_mac_top[9].pi0,128,"(12, 2)",1,8064,-
+buf694,aie_graph._dma[28].po0,aie_graph.k_mac_top[7].pi1,256,"(38, 0)",3,6176,-
+buf144,aie_graph._dma[4].po0,aie_graph.k_coeff_Rj_inv.pi0,128,"(0, 3)",1,0,-
+buf224,aie_graph._dma[84].po0,aie_graph.k_mac_top[63].pi1,256,"(5, 0)",0,7936,-
+buf281,aie_graph._dma[141].po0,aie_graph.k_mac_top[120].pi1,256,"(26, 7)",2,0,-
+buf768,aie_graph._dma[102].po0,aie_graph.k_mac_top[81].pi1,256,"(35, 7)",1,0,-
+buf179,aie_graph._dma[39].po0,aie_graph.k_mac_top[18].pi1,256,"(5, 6)",0,7936,-
+buf170,aie_graph._dma[30].po0,aie_graph.k_mac_top[9].pi1,256,"(12, 2)",0,7936,-
+buf639,p_ab_102.po0,aie_graph.k_mac_top[101].pi0,128,"(21, 4)",0,0,-
+buf648,p_ab_111.po0,aie_graph.k_mac_top[110].pi0,128,"(16, 2)",1,0,-
+buf261,aie_graph._dma[121].po0,aie_graph.k_mac_top[100].pi1,256,"(22, 5)",2,0,-
+buf198,aie_graph._dma[58].po0,aie_graph.k_mac_top[37].pi1,256,"(25, 1)",2,0,-
+buf586,p_ab_49.po0,aie_graph.k_mac_top[48].pi0,128,"(17, 5)",3,0,-
+buf564,p_ab_27.po0,aie_graph.k_mac_top[26].pi0,128,"(10, 3)",0,0,-
+buf147,aie_graph._dma[7].po0,aie_graph.k_coeff_Ri_inv.pi1,128,"(2, 4)",2,0,-
+buf653,p_ab_116.po0,aie_graph.k_mac_top[115].pi0,128,"(27, 1)",1,8064,-
+buf266,aie_graph._dma[126].po0,aie_graph.k_mac_top[105].pi1,256,"(8, 7)",0,0,-
+sysmem435,-,-,6176,"(9, 2)",0,2016,-
+buf679,aie_graph._dma[13].po0,aie_graph.k_transform_BL.pi0,128,"(6, 1)",0,7936,-
+buf684,aie_graph._dma[18].po0,aie_graph.k_transform_BL.pi1,128,"(6, 1)",2,0,-
+buf813,aie_graph._dma[147].po0,aie_graph.k_mac_top[126].pi1,256,"(14, 5)",1,0,-
+buf546,p_ab_9.po0,aie_graph.k_mac_top[8].pi0,128,"(2, 2)",1,8064,-
+buf154,aie_graph._dma[14].po0,aie_graph.k_transform_BR.pi0,128,"(5, 2)",0,0,-
+sysmem443,-,-,6176,"(9, 2)",1,0,-
+sysmem313,-,-,6176,"(4, 2)",3,64,-
+buf677,aie_graph._dma[11].po0,aie_graph.k_transform_TL.pi0,128,"(6, 2)",2,128,-
+buf287,aie_graph._dma[147].po0,aie_graph.k_mac_top[126].pi1,256,"(14, 5)",3,0,-
+sysmem337,-,-,6176,"(30, 2)",1,0,-
+buf774,aie_graph._dma[108].po0,aie_graph.k_mac_top[87].pi1,256,"(21, 1)",2,0,-
+buf533,aie_graph.k_transform_TR.po0,TR.pi0,128,"(7, 2)",0,0,-
+sysmem372,-,-,6176,"(44, 7)",0,2016,-
+buf810,aie_graph._dma[144].po0,aie_graph.k_mac_top[123].pi1,256,"(25, 7)",2,0,-
+sysmem295,-,-,6176,"(41, 6)",1,0,-
+buf35,p_ab_24.po0,aie_graph.k_mac_top[23].pi0,128,"(29, 6)",2,0,-
+sysmem425,-,-,6176,"(6, 0)",0,0,-
+sysmem523,-,-,6176,"(23, 1)",3,0,-
+buf102,p_ab_91.po0,aie_graph.k_mac_top[90].pi0,128,"(41, 5)",3,0,-
+buf681,aie_graph.k_coordinates_tr.po1,aie_graph._dma[15].pi0,128,"(6, 2)",1,8064,-
+buf719,aie_graph._dma[53].po0,aie_graph.k_mac_top[32].pi1,256,"(19, 6)",1,2144,-
+sysmem477,-,-,6176,"(26, 5)",2,256,-
+sysmem297,-,-,6176,"(34, 1)",0,0,-
+buf25,p_ab_14.po0,aie_graph.k_mac_top[13].pi0,128,"(14, 1)",1,0,-
+buf151,aie_graph._dma[11].po0,aie_graph.k_transform_TL.pi0,128,"(6, 2)",1,7296,-
+buf532,aie_graph.k_transform_TL.po0,TL.pi0,128,"(7, 2)",0,8064,-
+sysmem371,-,-,6176,"(4, 0)",0,2016,-
+buf809,aie_graph._dma[143].po0,aie_graph.k_mac_top[122].pi1,256,"(24, 5)",2,0,-
+sysmem424,-,-,6176,"(12, 2)",1,0,-
+sysmem522,-,-,6176,"(33, 5)",0,0,-
+sysmem439,-,-,6176,"(28, 3)",0,2016,-
+sysmem309,-,-,6176,"(22, 1)",2,0,-
+buf680,aie_graph._dma[14].po0,aie_graph.k_transform_BR.pi0,128,"(5, 2)",3,0,-
+buf666,aie_graph.k_coordinates_co.po0,aie_graph._dma[0].pi0,128,"(4, 2)",0,0,-
+buf795,aie_graph._dma[129].po0,aie_graph.k_mac_top[108].pi1,256,"(18, 1)",1,2144,-
+buf184,aie_graph._dma[44].po0,aie_graph.k_mac_top[23].pi1,256,"(29, 5)",2,0,-
+buf51,p_ab_40.po0,aie_graph.k_mac_top[39].pi0,128,"(26, 0)",2,0,-
+buf746,aie_graph._dma[80].po0,aie_graph.k_mac_top[59].pi1,256,"(18, 6)",2,0,-
+buf155,aie_graph.k_coordinates_tr.po1,aie_graph._dma[15].pi0,128,"(6, 2)",0,7936,-
+sysmem314,-,-,6176,"(10, 7)",0,0,-
+sysmem444,-,-,6176,"(14, 2)",0,2016,-
+buf165,aie_graph._dma[25].po0,aie_graph.k_mac_top[4].pi1,256,"(42, 0)",2,0,-
+sysmem454,-,-,6176,"(28, 6)",3,0,-
+sysmem324,-,-,6176,"(30, 2)",0,2016,-
+buf557,p_ab_20.po0,aie_graph.k_mac_top[19].pi0,128,"(4, 7)",1,8064,-
+buf685,aie_graph._dma[19].po0,aie_graph.k_transform_BR.pi1,128,"(4, 2)",2,256,-
+buf558,p_ab_21.po0,aie_graph.k_mac_top[20].pi0,128,"(27, 5)",0,0,-
+buf526,params.po0,aie_graph.k_coordinates_co.pi0,64,"(4, 2)",2,0,-
+buf8,aie_graph.k_transform_BL.po0,BL.pi0,128,"(6, 0)",2,0,-
+buf796,aie_graph._dma[130].po0,aie_graph.k_mac_top[109].pi1,256,"(18, 2)",1,0,-
+buf185,aie_graph._dma[45].po0,aie_graph.k_mac_top[24].pi1,256,"(7, 3)",0,0,-
+buf72,p_ab_61.po0,aie_graph.k_mac_top[60].pi0,128,"(11, 2)",0,0,-
+buf559,p_ab_22.po0,aie_graph.k_mac_top[21].pi0,128,"(28, 6)",1,6176,-
+buf527,params.po0,aie_graph.k_coordinates_tr.pi0,64,"(5, 2)",1,0,-
+buf552,p_ab_15.po0,aie_graph.k_mac_top[14].pi0,128,"(15, 1)",3,0,-
+buf601,p_ab_64.po0,aie_graph.k_mac_top[63].pi0,128,"(4, 0)",2,0,-
+buf229,aie_graph._dma[89].po0,aie_graph.k_mac_top[68].pi1,256,"(44, 3)",1,0,-
+sysmem380,-,-,6176,"(20, 2)",0,0,-
+buf150,aie_graph.k_coordinates_tr.po0,aie_graph._dma[10].pi0,128,"(6, 2)",3,0,-
+buf780,aie_graph._dma[114].po0,aie_graph.k_mac_top[93].pi1,256,"(34, 0)",1,4256,-
+buf683,aie_graph._dma[17].po0,aie_graph.k_transform_TR.pi1,128,"(7, 2)",2,0,-
+buf143,aie_graph._dma[3].po0,aie_graph.k_coeff_Rj.pi0,128,"(0, 4)",1,3968,-
+buf812,aie_graph._dma[146].po0,aie_graph.k_mac_top[125].pi1,256,"(15, 7)",3,0,-
+sysmem442,-,-,6176,"(13, 6)",2,0,-
+buf153,aie_graph._dma[13].po0,aie_graph.k_transform_BL.pi0,128,"(6, 1)",3,0,-
+sysmem312,-,-,6176,"(12, 6)",1,0,-
+sysmem289,-,-,6176,"(3, 2)",3,0,-
+buf549,p_ab_12.po0,aie_graph.k_mac_top[11].pi0,128,"(9, 2)",0,1088,-
+buf665,p_ab_128.po0,aie_graph.k_mac_top[127].pi0,128,"(15, 7)",0,0,-
+buf33,p_ab_22.po0,aie_graph.k_mac_top[21].pi0,128,"(28, 6)",2,0,-
+buf26,p_ab_15.po0,aie_graph.k_mac_top[14].pi0,128,"(15, 1)",2,0,-
+buf663,p_ab_126.po0,aie_graph.k_mac_top[125].pi0,128,"(14, 7)",1,2112,-
+sysmem294,-,-,6176,"(42, 6)",0,0,-
+buf71,p_ab_60.po0,aie_graph.k_mac_top[59].pi0,128,"(18, 6)",3,0,-
+buf664,p_ab_127.po0,aie_graph.k_mac_top[126].pi0,128,"(14, 6)",1,2112,-
+sysmem407,-,-,6176,"(13, 6)",1,0,-
+sysmem406,-,-,6176,"(13, 6)",0,0,-
+buf561,p_ab_24.po0,aie_graph.k_mac_top[23].pi0,128,"(29, 6)",1,2112,-
+buf189,aie_graph._dma[49].po0,aie_graph.k_mac_top[28].pi1,256,"(37, 5)",2,0,-
+buf814,aie_graph._dma[148].po0,aie_graph.k_mac_top[127].pi1,256,"(15, 6)",1,0,-
+buf68,p_ab_57.po0,aie_graph.k_mac_top[56].pi0,128,"(18, 5)",2,0,-
+sysmem436,-,-,6176,"(21, 3)",0,0,-
+buf726,aie_graph._dma[60].po0,aie_graph.k_mac_top[39].pi1,256,"(26, 1)",3,0,-
+sysmem484,-,-,6176,"(16, 5)",0,0,-
+sysmem304,-,-,6176,"(35, 5)",0,0,-
+buf81,p_ab_70.po0,aie_graph.k_mac_top[69].pi0,128,"(41, 4)",0,0,-
+buf709,aie_graph._dma[43].po0,aie_graph.k_mac_top[22].pi1,256,"(29, 7)",1,2144,-
+buf728,aie_graph._dma[62].po0,aie_graph.k_mac_top[41].pi1,256,"(28, 1)",2,0,-
+sysmem486,-,-,6176,"(15, 5)",0,0,-
+sysmem306,-,-,6176,"(21, 4)",3,0,-
+buf697,aie_graph._dma[31].po0,aie_graph.k_mac_top[10].pi1,256,"(9, 2)",3,0,-
+buf69,p_ab_58.po0,aie_graph.k_mac_top[57].pi0,128,"(16, 6)",1,0,-
+buf15,p_ab_4.po0,aie_graph.k_mac_top[3].pi0,128,"(31, 2)",0,0,-
+buf104,p_ab_93.po0,aie_graph.k_mac_top[92].pi0,128,"(35, 1)",2,0,-
+buf704,aie_graph._dma[38].po0,aie_graph.k_mac_top[17].pi1,256,"(6, 6)",0,3968,-
+buf212,aie_graph._dma[72].po0,aie_graph.k_mac_top[51].pi1,256,"(15, 2)",0,7936,-
+buf584,p_ab_47.po0,aie_graph.k_mac_top[46].pi0,128,"(40, 3)",1,0,-
+sysmem364,-,-,6176,"(15, 3)",0,2016,-
+buf78,p_ab_67.po0,aie_graph.k_mac_top[66].pi0,128,"(43, 7)",1,0,-
+buf699,aie_graph._dma[33].po0,aie_graph.k_mac_top[12].pi1,256,"(13, 2)",2,0,-
+sysmem397,-,-,6176,"(18, 1)",0,0,-
+buf550,p_ab_13.po0,aie_graph.k_mac_top[12].pi0,128,"(13, 2)",1,8064,-
+buf39,p_ab_28.po0,aie_graph.k_mac_top[27].pi0,128,"(12, 4)",2,0,-
+buf598,p_ab_61.po0,aie_graph.k_mac_top[60].pi0,128,"(11, 2)",1,0,-
+buf226,aie_graph._dma[86].po0,aie_graph.k_mac_top[65].pi1,256,"(42, 7)",2,0,-
+buf210,aie_graph._dma[70].po0,aie_graph.k_mac_top[49].pi1,256,"(16, 1)",3,0,-
+buf582,p_ab_45.po0,aie_graph.k_mac_top[44].pi0,128,"(36, 3)",1,0,-
+buf599,p_ab_62.po0,aie_graph.k_mac_top[61].pi0,128,"(8, 0)",3,0,-
+buf227,aie_graph._dma[87].po0,aie_graph.k_mac_top[66].pi1,256,"(43, 5)",1,0,-
+buf211,aie_graph._dma[71].po0,aie_graph.k_mac_top[50].pi1,256,"(15, 5)",2,0,-
+buf583,p_ab_46.po0,aie_graph.k_mac_top[45].pi0,128,"(37, 3)",0,0,-
+sysmem367,-,-,6176,"(17, 7)",0,0,-
+buf1,params.po0,aie_graph.k_coordinates_tr.pi0,64,"(5, 2)",0,128,-
+buf528,aie_graph.k_coeff_Ri.po0,aie_graph.k_merger_1_i.pi0,128,"(1, 3)",1,0,-
+buf132,p_ab_121.po0,aie_graph.k_mac_top[120].pi0,128,"(25, 6)",2,0,-
+buf702,aie_graph._dma[36].po0,aie_graph.k_mac_top[15].pi1,256,"(15, 1)",1,0,-
+buf701,aie_graph._dma[35].po0,aie_graph.k_mac_top[14].pi1,256,"(14, 2)",2,0,-
+buf745,aie_graph._dma[79].po0,aie_graph.k_mac_top[58].pi1,256,"(18, 7)",2,0,-
+buf700,aie_graph._dma[34].po0,aie_graph.k_mac_top[13].pi1,256,"(13, 1)",1,6176,-
+sysmem521,-,-,6176,"(33, 6)",2,0,-
+sysmem423,-,-,6176,"(18, 7)",1,0,-
+buf157,aie_graph._dma[17].po0,aie_graph.k_transform_TR.pi1,128,"(7, 2)",1,8064,-
+sysmem316,-,-,6176,"(18, 0)",0,0,-
+sysmem446,-,-,6176,"(14, 1)",2,0,-
+buf597,p_ab_60.po0,aie_graph.k_mac_top[59].pi0,128,"(18, 6)",1,0,-
+buf10,aie_graph.k_merger_1_i.po0,aie_graph.k_merger_2.pi0,256,"(1, 4)",0,0,-
+buf225,aie_graph._dma[85].po0,aie_graph.k_mac_top[64].pi1,256,"(43, 5)",2,0,-
+buf279,aie_graph._dma[139].po0,aie_graph.k_mac_top[118].pi1,256,"(32, 6)",1,0,-
+buf54,p_ab_43.po0,aie_graph.k_mac_top[42].pi0,128,"(26, 6)",0,0,-
+buf646,p_ab_109.po0,aie_graph.k_mac_top[108].pi0,128,"(17, 0)",0,832,-
+buf259,aie_graph._dma[119].po0,aie_graph.k_mac_top[98].pi1,256,"(35, 6)",0,7936,-
+sysmem494,-,-,6176,"(16, 7)",0,0,-
+buf736,aie_graph._dma[70].po0,aie_graph.k_mac_top[49].pi1,256,"(16, 1)",1,6176,-
+buf177,aie_graph._dma[37].po0,aie_graph.k_mac_top[16].pi1,256,"(4, 6)",2,0,-
+buf738,aie_graph._dma[72].po0,aie_graph.k_mac_top[51].pi1,256,"(15, 2)",2,0,-
+sysmem496,-,-,6176,"(18, 6)",2,256,-
+buf169,aie_graph._dma[29].po0,aie_graph.k_mac_top[8].pi1,256,"(2, 2)",0,7936,-
+buf638,p_ab_101.po0,aie_graph.k_mac_top[100].pi0,128,"(21, 5)",3,0,-
+buf108,p_ab_97.po0,aie_graph.k_mac_top[96].pi0,128,"(33, 3)",2,0,-
+buf647,p_ab_110.po0,aie_graph.k_mac_top[109].pi0,128,"(18, 0)",1,2112,-
+buf88,p_ab_77.po0,aie_graph.k_mac_top[76].pi0,128,"(19, 0)",2,0,-
+buf270,aie_graph._dma[130].po0,aie_graph.k_mac_top[109].pi1,256,"(18, 2)",0,0,-
+buf260,aie_graph._dma[120].po0,aie_graph.k_mac_top[99].pi1,256,"(35, 2)",2,0,-
+sysmem495,-,-,6176,"(17, 6)",0,0,-
+buf737,aie_graph._dma[71].po0,aie_graph.k_mac_top[50].pi1,256,"(15, 5)",1,2144,-
+buf178,aie_graph._dma[38].po0,aie_graph.k_mac_top[17].pi1,256,"(6, 6)",2,0,-
+buf652,p_ab_115.po0,aie_graph.k_mac_top[114].pi0,128,"(27, 0)",2,0,-
+buf265,aie_graph._dma[125].po0,aie_graph.k_mac_top[104].pi1,256,"(6, 6)",3,0,-
+buf174,aie_graph._dma[34].po0,aie_graph.k_mac_top[13].pi1,256,"(13, 1)",2,0,-
+buf643,p_ab_106.po0,aie_graph.k_mac_top[105].pi0,128,"(8, 7)",3,0,-
+buf285,aie_graph._dma[145].po0,aie_graph.k_mac_top[124].pi1,256,"(14, 5)",2,0,-
+buf772,aie_graph._dma[106].po0,aie_graph.k_mac_top[85].pi1,256,"(21, 0)",3,0,-
+buf621,p_ab_84.po0,aie_graph.k_mac_top[83].pi0,128,"(34, 5)",1,0,-
+buf249,aie_graph._dma[109].po0,aie_graph.k_mac_top[88].pi1,256,"(41, 6)",2,0,-
+buf38,p_ab_27.po0,aie_graph.k_mac_top[26].pi0,128,"(10, 3)",1,0,-
+buf620,p_ab_83.po0,aie_graph.k_mac_top[82].pi0,128,"(33, 5)",1,2112,-
+buf248,aie_graph._dma[108].po0,aie_graph.k_mac_top[87].pi1,256,"(21, 1)",0,7936,-
+buf806,aie_graph._dma[140].po0,aie_graph.k_mac_top[119].pi1,256,"(32, 5)",1,4256,-
+buf539,p_ab_2.po0,aie_graph.k_mac_top[1].pi0,128,"(31, 5)",0,0,-
+sysmem421,-,-,6176,"(15, 3)",1,0,-
+sysmem519,-,-,6176,"(35, 5)",3,0,-
+buf278,aie_graph._dma[138].po0,aie_graph.k_mac_top[117].pi1,256,"(30, 5)",1,0,-
+sysmem391,-,-,6176,"(35, 3)",0,0,-
+sysmem396,-,-,6176,"(17, 2)",0,2016,-
+buf119,p_ab_108.po0,aie_graph.k_mac_top[107].pi0,128,"(10, 6)",2,0,-
+buf784,aie_graph._dma[118].po0,aie_graph.k_mac_top[97].pi1,256,"(34, 3)",1,0,-
+buf634,p_ab_97.po0,aie_graph.k_mac_top[96].pi0,128,"(33, 3)",3,0,-
+buf783,aie_graph._dma[117].po0,aie_graph.k_mac_top[96].pi1,256,"(33, 3)",1,4256,-
+buf786,aie_graph._dma[120].po0,aie_graph.k_mac_top[99].pi1,256,"(35, 2)",1,2144,-
+sysmem434,-,-,6176,"(35, 2)",0,0,-
+buf286,aie_graph._dma[146].po0,aie_graph.k_mac_top[125].pi1,256,"(15, 7)",0,7936,-
+buf109,p_ab_98.po0,aie_graph.k_mac_top[97].pi0,128,"(34, 2)",2,0,-
+sysmem389,-,-,6176,"(34, 2)",0,0,-
+buf779,aie_graph._dma[113].po0,aie_graph.k_mac_top[92].pi1,256,"(34, 1)",1,2144,-
+buf689,aie_graph._dma[23].po0,aie_graph.k_mac_top[2].pi1,256,"(32, 1)",1,2144,-
+sysmem357,-,-,6176,"(31, 1)",2,256,-
+buf687,aie_graph._dma[21].po0,aie_graph.k_mac_top[0].pi1,256,"(30, 1)",2,0,-
+buf538,p_ab_1.po0,aie_graph.k_mac_top[0].pi0,128,"(30, 1)",1,8064,-
+buf805,aie_graph._dma[139].po0,aie_graph.k_mac_top[118].pi1,256,"(32, 6)",2,0,-
+buf271,aie_graph._dma[131].po0,aie_graph.k_mac_top[110].pi1,256,"(16, 0)",1,0,-
+buf79,p_ab_68.po0,aie_graph.k_mac_top[67].pi0,128,"(44, 5)",3,0,-
+buf631,p_ab_94.po0,aie_graph.k_mac_top[93].pi0,128,"(34, 0)",3,0,-
+buf254,aie_graph._dma[114].po0,aie_graph.k_mac_top[93].pi1,256,"(34, 0)",0,0,-
+sysmem402,-,-,6176,"(38, 0)",3,0,-
+buf14,p_ab_3.po0,aie_graph.k_mac_top[2].pi0,128,"(32, 2)",0,0,-
+buf626,p_ab_89.po0,aie_graph.k_mac_top[88].pi0,128,"(41, 5)",0,4032,-
+sysmem387,-,-,6176,"(33, 0)",0,2016,-
+buf782,aie_graph._dma[116].po0,aie_graph.k_mac_top[95].pi1,256,"(32, 0)",1,4256,-
+buf256,aie_graph._dma[116].po0,aie_graph.k_mac_top[95].pi1,256,"(32, 0)",0,0,-
+buf628,p_ab_91.po0,aie_graph.k_mac_top[90].pi0,128,"(41, 5)",1,0,-
+buf255,aie_graph._dma[115].po0,aie_graph.k_mac_top[94].pi1,256,"(30, 0)",1,0,-
+buf627,p_ab_90.po0,aie_graph.k_mac_top[89].pi0,128,"(42, 5)",3,0,-
+sysmem299,-,-,6176,"(30, 0)",1,256,-
+buf721,aie_graph._dma[55].po0,aie_graph.k_mac_top[34].pi1,256,"(19, 4)",3,0,-
+buf43,p_ab_32.po0,aie_graph.k_mac_top[31].pi0,128,"(38, 6)",1,0,-
+sysmem479,-,-,6176,"(36, 4)",0,0,-
+buf785,aie_graph._dma[119].po0,aie_graph.k_mac_top[98].pi1,256,"(35, 6)",3,0,-
+buf12,p_ab_1.po0,aie_graph.k_mac_top[0].pi0,128,"(30, 1)",3,0,-
+buf657,p_ab_120.po0,aie_graph.k_mac_top[119].pi0,128,"(32, 5)",3,0,-
+sysmem433,-,-,6176,"(33, 1)",0,0,-
+sysmem430,-,-,6176,"(34, 7)",0,2016,-
+buf654,p_ab_117.po0,aie_graph.k_mac_top[116].pi0,128,"(31, 5)",3,0,-
+buf267,aie_graph._dma[127].po0,aie_graph.k_mac_top[106].pi1,256,"(12, 6)",0,7936,-
+sysmem408,-,-,6176,"(30, 1)",1,0,-
+buf632,p_ab_95.po0,aie_graph.k_mac_top[94].pi0,128,"(30, 0)",3,0,-
+buf280,aie_graph._dma[140].po0,aie_graph.k_mac_top[119].pi1,256,"(32, 5)",0,0,-
+buf767,aie_graph._dma[101].po0,aie_graph.k_mac_top[80].pi1,256,"(34, 6)",2,0,-
+buf91,p_ab_80.po0,aie_graph.k_mac_top[79].pi0,128,"(20, 1)",1,8064,-
+buf602,p_ab_65.po0,aie_graph.k_mac_top[64].pi0,128,"(44, 5)",0,4032,-
+buf230,aie_graph._dma[90].po0,aie_graph.k_mac_top[69].pi1,256,"(41, 4)",2,0,-
+sysmem301,-,-,6176,"(33, 2)",0,0,-
+buf723,aie_graph._dma[57].po0,aie_graph.k_mac_top[36].pi1,256,"(24, 0)",1,2144,-
+sysmem481,-,-,6176,"(39, 4)",0,0,-
+sysmem300,-,-,6176,"(31, 0)",0,2016,-
+buf633,p_ab_96.po0,aie_graph.k_mac_top[95].pi0,128,"(32, 0)",3,0,-
+buf146,aie_graph._dma[6].po0,aie_graph.k_coeff_Ri.pi1,128,"(0, 3)",0,8064,-
+buf106,p_ab_95.po0,aie_graph.k_mac_top[94].pi0,128,"(30, 0)",0,8064,-
+buf243,aie_graph._dma[103].po0,aie_graph.k_mac_top[82].pi1,256,"(33, 6)",1,0,-
+buf637,p_ab_100.po0,aie_graph.k_mac_top[99].pi0,128,"(35, 3)",1,6176,-
+sysmem388,-,-,6176,"(30, 0)",0,0,-
+buf655,p_ab_118.po0,aie_graph.k_mac_top[117].pi0,128,"(30, 6)",0,1088,-
+buf268,aie_graph._dma[128].po0,aie_graph.k_mac_top[107].pi1,256,"(10, 6)",0,0,-
+buf804,aie_graph._dma[138].po0,aie_graph.k_mac_top[117].pi1,256,"(30, 5)",0,256,-
+buf537,aie_graph.k_merger_1_j.po0,aie_graph.k_merger_2.pi1,256,"(1, 5)",1,2144,-
+buf242,aie_graph._dma[102].po0,aie_graph.k_mac_top[81].pi1,256,"(35, 7)",0,0,-
+buf636,p_ab_99.po0,aie_graph.k_mac_top[98].pi0,128,"(35, 5)",1,6176,-
+buf22,p_ab_11.po0,aie_graph.k_mac_top[10].pi0,128,"(10, 2)",1,0,-
+buf253,aie_graph._dma[113].po0,aie_graph.k_mac_top[92].pi1,256,"(34, 1)",2,0,-
+buf625,p_ab_88.po0,aie_graph.k_mac_top[87].pi0,128,"(21, 1)",1,8064,-
+sysmem453,-,-,6176,"(27, 7)",0,0,-
+buf164,aie_graph._dma[24].po0,aie_graph.k_mac_top[3].pi1,256,"(31, 1)",0,7936,-
+sysmem323,-,-,6176,"(31, 5)",2,0,-
+buf556,p_ab_19.po0,aie_graph.k_mac_top[18].pi0,128,"(5, 6)",1,8064,-
+buf610,p_ab_73.po0,aie_graph.k_mac_top[72].pi0,128,"(22, 4)",1,2112,-
+buf105,p_ab_94.po0,aie_graph.k_mac_top[93].pi0,128,"(34, 0)",2,0,-
+sysmem303,-,-,6176,"(34, 2)",3,0,-
+buf725,aie_graph._dma[59].po0,aie_graph.k_mac_top[38].pi1,256,"(25, 1)",1,0,-
+sysmem483,-,-,6176,"(41, 3)",0,0,-
+buf111,p_ab_100.po0,aie_graph.k_mac_top[99].pi0,128,"(35, 3)",2,0,-
+buf690,aie_graph._dma[24].po0,aie_graph.k_mac_top[3].pi1,256,"(31, 1)",2,0,-
+buf57,p_ab_46.po0,aie_graph.k_mac_top[45].pi0,128,"(37, 3)",1,0,-
+buf761,aie_graph._dma[95].po0,aie_graph.k_mac_top[74].pi1,256,"(21, 6)",0,0,-
+buf131,p_ab_120.po0,aie_graph.k_mac_top[119].pi0,128,"(32, 5)",2,0,-
+buf781,aie_graph._dma[115].po0,aie_graph.k_mac_top[94].pi1,256,"(30, 0)",2,0,-
+sysmem310,-,-,6176,"(7, 7)",0,0,-
+sysmem440,-,-,6176,"(31, 6)",1,0,-
+buf635,p_ab_98.po0,aie_graph.k_mac_top[97].pi0,128,"(34, 2)",1,6176,-
+buf803,aie_graph._dma[137].po0,aie_graph.k_mac_top[116].pi1,256,"(31, 6)",0,736,-
+buf536,aie_graph.k_merger_1_i.po0,aie_graph.k_merger_2.pi0,256,"(1, 4)",3,7936,-
+buf258,aie_graph._dma[118].po0,aie_graph.k_mac_top[97].pi1,256,"(34, 3)",0,0,-
+buf645,p_ab_108.po0,aie_graph.k_mac_top[107].pi0,128,"(10, 6)",3,0,-
+buf604,p_ab_67.po0,aie_graph.k_mac_top[66].pi0,128,"(43, 7)",0,128,-
+buf232,aie_graph._dma[92].po0,aie_graph.k_mac_top[71].pi1,256,"(42, 3)",0,7936,-
+buf16,p_ab_5.po0,aie_graph.k_mac_top[4].pi0,128,"(42, 1)",2,0,-
+sysmem502,-,-,6176,"(42, 7)",3,0,-
+buf729,aie_graph._dma[63].po0,aie_graph.k_mac_top[42].pi1,256,"(26, 5)",2,0,-
+sysmem487,-,-,6176,"(15, 2)",1,0,-
+buf28,p_ab_17.po0,aie_graph.k_mac_top[16].pi0,128,"(4, 6)",1,0,-
+buf752,aie_graph._dma[86].po0,aie_graph.k_mac_top[65].pi1,256,"(42, 7)",1,6176,-
+buf192,aie_graph._dma[52].po0,aie_graph.k_mac_top[31].pi1,256,"(38, 7)",2,0,-
+sysmem476,-,-,6176,"(27, 1)",1,0,-
+buf718,aie_graph._dma[52].po0,aie_graph.k_mac_top[31].pi1,256,"(38, 7)",1,2144,-
+buf603,p_ab_66.po0,aie_graph.k_mac_top[65].pi0,128,"(42, 6)",1,2112,-
+buf596,p_ab_59.po0,aie_graph.k_mac_top[58].pi0,128,"(18, 7)",1,8064,-
+buf83,p_ab_72.po0,aie_graph.k_mac_top[71].pi0,128,"(42, 4)",1,0,-
+buf231,aie_graph._dma[91].po0,aie_graph.k_mac_top[70].pi1,256,"(44, 4)",2,0,-
+buf777,aie_graph._dma[111].po0,aie_graph.k_mac_top[90].pi1,256,"(41, 6)",3,0,-
+buf73,p_ab_62.po0,aie_graph.k_mac_top[61].pi0,128,"(8, 0)",2,0,-
+buf778,aie_graph._dma[112].po0,aie_graph.k_mac_top[91].pi1,256,"(39, 6)",0,256,-
+buf191,aie_graph._dma[51].po0,aie_graph.k_mac_top[30].pi1,256,"(38, 6)",0,7936,-
+buf4,aie_graph.k_coeff_Rj.po0,aie_graph.k_merger_1_j.pi0,128,"(0, 4)",3,0,-
+buf754,aie_graph._dma[88].po0,aie_graph.k_mac_top[67].pi1,256,"(45, 5)",1,2144,-
+sysmem503,-,-,6176,"(43, 5)",3,0,-
+buf753,aie_graph._dma[87].po0,aie_graph.k_mac_top[66].pi1,256,"(43, 5)",0,1088,-
+buf751,aie_graph._dma[85].po0,aie_graph.k_mac_top[64].pi1,256,"(43, 5)",0,832,-
+buf629,p_ab_92.po0,aie_graph.k_mac_top[91].pi0,128,"(40, 5)",1,2112,-
+buf568,p_ab_31.po0,aie_graph.k_mac_top[30].pi0,128,"(38, 5)",3,0,-
+sysmem343,-,-,6176,"(13, 2)",1,0,-
+sysmem332,-,-,6176,"(13, 5)",0,0,-
+sysmem462,-,-,6176,"(38, 5)",2,0,-
+buf139,p_ab_128.po0,aie_graph.k_mac_top[127].pi0,128,"(15, 7)",1,0,-
+buf42,p_ab_31.po0,aie_graph.k_mac_top[30].pi0,128,"(38, 5)",0,8064,-
+buf190,aie_graph._dma[50].po0,aie_graph.k_mac_top[29].pi1,256,"(37, 5)",3,0,-
+sysmem474,-,-,6176,"(26, 1)",2,0,-
+buf716,aie_graph._dma[50].po0,aie_graph.k_mac_top[29].pi1,256,"(37, 5)",1,0,-
+sysmem473,-,-,6176,"(25, 0)",0,0,-
+buf7,aie_graph.k_transform_TR.po0,TR.pi0,128,"(7, 2)",2,128,-
+buf715,aie_graph._dma[49].po0,aie_graph.k_mac_top[28].pi1,256,"(37, 5)",0,3968,-
+buf567,p_ab_30.po0,aie_graph.k_mac_top[29].pi0,128,"(36, 5)",1,2112,-
+buf566,p_ab_29.po0,aie_graph.k_mac_top[28].pi0,128,"(38, 5)",0,0,-
+sysmem475,-,-,6176,"(27, 5)",2,0,-
+buf717,aie_graph._dma[51].po0,aie_graph.k_mac_top[30].pi1,256,"(38, 6)",3,0,-
+buf101,p_ab_90.po0,aie_graph.k_mac_top[89].pi0,128,"(42, 5)",2,0,-
+buf250,aie_graph._dma[110].po0,aie_graph.k_mac_top[89].pi1,256,"(42, 5)",0,0,-
+buf622,p_ab_85.po0,aie_graph.k_mac_top[84].pi0,128,"(22, 0)",0,4032,-
+buf76,p_ab_65.po0,aie_graph.k_mac_top[64].pi0,128,"(44, 5)",2,0,-
+buf743,aie_graph._dma[77].po0,aie_graph.k_mac_top[56].pi1,256,"(17, 6)",1,2144,-
+sysmem501,-,-,6176,"(43, 5)",0,2016,-
+sysmem344,-,-,6176,"(14, 0)",1,0,-
+sysmem333,-,-,6176,"(14, 7)",0,0,-
+sysmem463,-,-,6176,"(36, 6)",1,0,-
+buf40,p_ab_29.po0,aie_graph.k_mac_top[28].pi0,128,"(38, 5)",1,0,-
+sysmem524,-,-,6176,"(21, 0)",0,0,-
+sysmem426,-,-,6176,"(44, 6)",0,2016,-
+sysmem505,-,-,6176,"(45, 5)",0,0,-
+buf252,aie_graph._dma[112].po0,aie_graph.k_mac_top[91].pi1,256,"(39, 6)",1,0,-
+buf624,p_ab_87.po0,aie_graph.k_mac_top[86].pi0,128,"(21, 2)",1,2112,-
+buf579,p_ab_42.po0,aie_graph.k_mac_top[41].pi0,128,"(28, 1)",1,8064,-
+buf103,p_ab_92.po0,aie_graph.k_mac_top[91].pi0,128,"(40, 5)",2,0,-
+buf776,aie_graph._dma[110].po0,aie_graph.k_mac_top[89].pi1,256,"(42, 5)",1,4256,-
+buf100,p_ab_89.po0,aie_graph.k_mac_top[88].pi0,128,"(41, 5)",2,0,-
+sysmem385,-,-,6176,"(42, 7)",0,0,-
+sysmem346,-,-,6176,"(32, 1)",0,0,-
+sysmem335,-,-,6176,"(30, 6)",0,2016,-
+sysmem465,-,-,6176,"(38, 7)",0,0,-
+sysmem386,-,-,6176,"(40, 6)",0,0,-
+sysmem432,-,-,6176,"(40, 6)",1,0,-
+buf133,p_ab_122.po0,aie_graph.k_mac_top[121].pi0,128,"(25, 5)",2,0,-
+sysmem353,-,-,6176,"(37, 6)",0,0,-
+buf77,p_ab_66.po0,aie_graph.k_mac_top[65].pi0,128,"(42, 6)",2,0,-
+sysmem514,-,-,6176,"(19, 1)",2,0,-
+sysmem416,-,-,6176,"(36, 6)",0,2016,-
+buf540,p_ab_3.po0,aie_graph.k_mac_top[2].pi0,128,"(32, 2)",1,0,-
+buf117,p_ab_106.po0,aie_graph.k_mac_top[105].pi0,128,"(8, 7)",2,0,-
+buf792,aie_graph._dma[126].po0,aie_graph.k_mac_top[105].pi1,256,"(8, 7)",1,4256,-
+sysmem320,-,-,6176,"(28, 0)",1,2016,-
+buf161,aie_graph._dma[21].po0,aie_graph.k_mac_top[0].pi1,256,"(30, 1)",0,7936,-
+sysmem450,-,-,6176,"(6, 7)",0,0,-
+sysmem318,-,-,6176,"(17, 0)",1,0,-
+buf159,aie_graph._dma[19].po0,aie_graph.k_transform_BR.pi1,128,"(4, 2)",1,128,-
+sysmem448,-,-,6176,"(5, 7)",0,0,-
+buf86,p_ab_75.po0,aie_graph.k_mac_top[74].pi0,128,"(21, 5)",1,0,-
+buf691,aie_graph._dma[25].po0,aie_graph.k_mac_top[4].pi1,256,"(42, 0)",1,2144,-
+buf31,p_ab_20.po0,aie_graph.k_mac_top[19].pi0,128,"(4, 7)",3,0,-
+buf706,aie_graph._dma[40].po0,aie_graph.k_mac_top[19].pi1,256,"(4, 7)",2,0,-
+buf180,aie_graph._dma[40].po0,aie_graph.k_mac_top[19].pi1,256,"(4, 7)",0,7936,-
+sysmem334,-,-,6176,"(14, 6)",0,0,-
+sysmem464,-,-,6176,"(38, 6)",2,0,-
+sysmem345,-,-,6176,"(3, 7)",0,0,-
+buf609,p_ab_72.po0,aie_graph.k_mac_top[71].pi0,128,"(42, 4)",0,0,-
+buf118,p_ab_107.po0,aie_graph.k_mac_top[106].pi0,128,"(12, 6)",3,0,-
+buf644,p_ab_107.po0,aie_graph.k_mac_top[106].pi0,128,"(12, 6)",1,8064,-
+buf791,aie_graph._dma[125].po0,aie_graph.k_mac_top[104].pi1,256,"(6, 6)",1,0,-
+buf30,p_ab_19.po0,aie_graph.k_mac_top[18].pi0,128,"(5, 6)",3,0,-
+sysmem412,-,-,6176,"(4, 6)",3,0,-
+buf794,aie_graph._dma[128].po0,aie_graph.k_mac_top[107].pi1,256,"(10, 6)",1,4256,-
+sysmem307,-,-,6176,"(22, 4)",0,0,-
+sysmem437,-,-,6176,"(9, 6)",0,2016,-
+buf705,aie_graph._dma[39].po0,aie_graph.k_mac_top[18].pi1,256,"(5, 6)",2,0,-
+buf29,p_ab_18.po0,aie_graph.k_mac_top[17].pi0,128,"(6, 7)",2,0,-
+buf793,aie_graph._dma[127].po0,aie_graph.k_mac_top[106].pi1,256,"(12, 6)",2,0,-
+sysmem466,-,-,6176,"(19, 7)",0,0,-
+sysmem336,-,-,6176,"(15, 7)",2,0,-
+sysmem347,-,-,6176,"(3, 7)",1,0,-
+sysmem394,-,-,6176,"(8, 6)",0,2016,-
+buf703,aie_graph._dma[37].po0,aie_graph.k_mac_top[16].pi1,256,"(4, 6)",3,6176,-
+sysmem395,-,-,6176,"(11, 7)",0,0,-
+sysmem321,-,-,6176,"(28, 1)",1,0,-
+buf162,aie_graph._dma[22].po0,aie_graph.k_mac_top[1].pi1,256,"(30, 5)",2,0,-
+sysmem451,-,-,6176,"(5, 6)",1,0,-
+sysmem322,-,-,6176,"(27, 0)",0,0,-
+buf163,aie_graph._dma[23].po0,aie_graph.k_mac_top[2].pi1,256,"(32, 1)",2,0,-
+sysmem452,-,-,6176,"(4, 7)",1,0,-
+buf787,aie_graph._dma[121].po0,aie_graph.k_mac_top[100].pi1,256,"(22, 5)",3,0,-
+buf87,p_ab_76.po0,aie_graph.k_mac_top[75].pi0,128,"(22, 7)",0,0,-
+sysmem376,-,-,6176,"(23, 6)",0,0,-
+sysmem428,-,-,6176,"(22, 5)",1,0,-
+sysmem377,-,-,6176,"(22, 5)",0,0,-
+sysmem392,-,-,6176,"(21, 5)",2,0,-
+sysmem383,-,-,6176,"(23, 0)",0,0,-
+buf65,p_ab_54.po0,aie_graph.k_mac_top[53].pi0,128,"(42, 2)",3,0,-
+sysmem384,-,-,6176,"(21, 2)",0,0,-
+sysmem511,-,-,6176,"(23, 6)",3,0,-
+sysmem512,-,-,6176,"(21, 6)",2,0,-
+buf127,p_ab_116.po0,aie_graph.k_mac_top[115].pi0,128,"(27, 1)",3,0,-
+buf790,aie_graph._dma[124].po0,aie_graph.k_mac_top[103].pi1,256,"(22, 2)",1,2144,-
+buf9,aie_graph.k_transform_BR.po0,BR.pi0,128,"(5, 2)",1,64,-
+buf97,p_ab_86.po0,aie_graph.k_mac_top[85].pi0,128,"(22, 0)",3,0,-
+sysmem513,-,-,6176,"(22, 6)",0,2016,-
+sysmem510,-,-,6176,"(23, 4)",0,0,-
+buf788,aie_graph._dma[122].po0,aie_graph.k_mac_top[101].pi1,256,"(21, 4)",3,6176,-
+buf85,p_ab_74.po0,aie_graph.k_mac_top[73].pi0,128,"(23, 6)",2,0,-
+buf611,p_ab_74.po0,aie_graph.k_mac_top[73].pi0,128,"(23, 6)",1,6176,-
+buf112,p_ab_101.po0,aie_graph.k_mac_top[100].pi0,128,"(21, 5)",0,8064,-
+sysmem393,-,-,6176,"(22, 2)",0,0,-
+buf113,p_ab_102.po0,aie_graph.k_mac_top[101].pi0,128,"(21, 4)",1,0,-
+buf114,p_ab_103.po0,aie_graph.k_mac_top[102].pi0,128,"(23, 3)",0,0,-
+buf115,p_ab_104.po0,aie_graph.k_mac_top[103].pi0,128,"(22, 1)",1,0,-
+buf670,aie_graph._dma[4].po0,aie_graph.k_coeff_Rj_inv.pi0,128,"(0, 3)",0,0,-
+buf756,aie_graph._dma[90].po0,aie_graph.k_mac_top[69].pi1,256,"(41, 4)",3,0,-
+buf99,p_ab_88.po0,aie_graph.k_mac_top[87].pi0,128,"(21, 1)",3,0,-
+sysmem375,-,-,6176,"(45, 4)",0,2016,-
+buf172,aie_graph._dma[32].po0,aie_graph.k_mac_top[11].pi1,256,"(8, 2)",2,0,-
+buf80,p_ab_69.po0,aie_graph.k_mac_top[68].pi0,128,"(44, 4)",0,0,-
+sysmem509,-,-,6176,"(42, 4)",2,0,-
+sysmem362,-,-,6176,"(40, 4)",0,2016,-
+sysmem491,-,-,6176,"(36, 2)",1,1888,-
+buf733,aie_graph._dma[67].po0,aie_graph.k_mac_top[46].pi1,256,"(39, 4)",1,2144,-
+sysmem489,-,-,6176,"(42, 2)",1,0,-
+buf50,p_ab_39.po0,aie_graph.k_mac_top[38].pi0,128,"(25, 0)",2,0,-
+buf731,aie_graph._dma[65].po0,aie_graph.k_mac_top[44].pi1,256,"(36, 4)",1,2144,-
+sysmem508,-,-,6176,"(45, 3)",0,0,-
+sysmem374,-,-,6176,"(43, 3)",0,0,-
+sysmem507,-,-,6176,"(42, 3)",2,0,-
+buf585,p_ab_48.po0,aie_graph.k_mac_top[47].pi0,128,"(41, 3)",1,2112,-
+sysmem518,-,-,6176,"(20, 1)",0,1760,-
+sysmem420,-,-,6176,"(39, 3)",0,2016,-
+sysmem490,-,-,6176,"(36, 2)",0,1888,-
+buf732,aie_graph._dma[66].po0,aie_graph.k_mac_top[45].pi1,256,"(37, 3)",3,6176,-
+buf56,p_ab_45.po0,aie_graph.k_mac_top[44].pi0,128,"(36, 3)",0,0,-
+buf755,aie_graph._dma[89].po0,aie_graph.k_mac_top[68].pi1,256,"(44, 3)",0,0,-
+sysmem492,-,-,6176,"(18, 5)",0,0,-
+buf734,aie_graph._dma[68].po0,aie_graph.k_mac_top[47].pi1,256,"(42, 3)",0,0,-
+sysmem525,-,-,6176,"(21, 1)",1,0,-
+sysmem427,-,-,6176,"(43, 4)",0,0,-
+sysmem506,-,-,6176,"(44, 3)",2,0,-
+buf757,aie_graph._dma[91].po0,aie_graph.k_mac_top[70].pi1,256,"(44, 4)",3,0,-
+sysmem361,-,-,6176,"(37, 4)",0,0,-
+buf82,p_ab_71.po0,aie_graph.k_mac_top[70].pi0,128,"(45, 3)",2,0,-
+buf128,p_ab_117.po0,aie_graph.k_mac_top[116].pi0,128,"(31, 5)",0,8064,-
+buf673,aie_graph._dma[7].po0,aie_graph.k_coeff_Ri_inv.pi1,128,"(2, 4)",3,0,-
+buf674,aie_graph._dma[8].po0,aie_graph.k_coeff_Rj.pi1,128,"(0, 5)",3,0,-
+buf148,aie_graph._dma[8].po0,aie_graph.k_coeff_Rj.pi1,128,"(0, 5)",2,0,-
+buf722,aie_graph._dma[56].po0,aie_graph.k_mac_top[35].pi1,256,"(20, 4)",1,0,-
+sysmem480,-,-,6176,"(37, 3)",3,0,-
+buf142,aie_graph._dma[2].po0,aie_graph.k_coeff_Ri_inv.pi0,128,"(2, 4)",0,0,-
+buf686,aie_graph.k_merger_2.po0,aie_graph._dma[20].pi0,256,"(2, 5)",2,0,-
+buf11,aie_graph.k_merger_1_j.po0,aie_graph.k_merger_2.pi1,256,"(1, 5)",2,0,-
+buf735,aie_graph._dma[69].po0,aie_graph.k_mac_top[48].pi1,256,"(17, 5)",1,4256,-
+sysmem493,-,-,6176,"(1, 5)",0,0,-
+buf3,aie_graph.k_coeff_Ri_inv.po0,aie_graph.k_merger_1_i.pi1,128,"(1, 4)",2,8064,-
+buf529,aie_graph.k_coeff_Ri_inv.po0,aie_graph.k_merger_1_i.pi1,128,"(1, 4)",1,8064,-
+buf669,aie_graph._dma[3].po0,aie_graph.k_coeff_Rj.pi0,128,"(0, 4)",2,128,-
+buf160,aie_graph.k_merger_2.po0,aie_graph._dma[20].pi0,256,"(2, 5)",1,0,-
+sysmem319,-,-,6176,"(29, 1)",0,2016,-
+sysmem449,-,-,6176,"(0, 4)",0,1888,-
+buf630,p_ab_93.po0,aie_graph.k_mac_top[92].pi0,128,"(35, 1)",1,2112,-
+buf2,aie_graph.k_coeff_Ri.po0,aie_graph.k_merger_1_i.pi0,128,"(1, 3)",3,0,-
+buf667,aie_graph._dma[1].po0,aie_graph.k_coeff_Ri.pi0,128,"(1, 3)",2,0,-
+buf141,aie_graph._dma[1].po0,aie_graph.k_coeff_Ri.pi0,128,"(1, 3)",0,8064,-
+buf672,aie_graph._dma[6].po0,aie_graph.k_coeff_Ri.pi1,128,"(0, 3)",3,0,-
+buf675,aie_graph._dma[9].po0,aie_graph.k_coeff_Rj_inv.pi1,128,"(0, 5)",1,0,-
+sysmem401,-,-,6176,"(2, 5)",0,0,-
+sysmem341,-,-,6176,"(0, 2)",1,0,-
+sysmem330,-,-,6176,"(24, 5)",1,0,-
+sysmem460,-,-,6176,"(0, 3)",2,0,-
+buf744,aie_graph._dma[78].po0,aie_graph.k_mac_top[57].pi1,256,"(16, 7)",1,2144,-
+buf37,p_ab_26.po0,aie_graph.k_mac_top[25].pi0,128,"(8, 5)",0,0,-
+sysmem472,-,-,6176,"(25, 2)",0,0,-
+buf714,aie_graph._dma[48].po0,aie_graph.k_mac_top[27].pi1,256,"(12, 4)",1,4256,-
+sysmem327,-,-,6176,"(32, 6)",0,0,-
+sysmem338,-,-,6176,"(31, 1)",3,128,-
+sysmem457,-,-,6176,"(7, 4)",3,0,-
+buf186,aie_graph._dma[46].po0,aie_graph.k_mac_top[25].pi1,256,"(7, 4)",2,0,-
+sysmem351,-,-,6176,"(12, 3)",0,2016,-
+sysmem470,-,-,6176,"(24, 2)",0,0,-
+buf712,aie_graph._dma[46].po0,aie_graph.k_mac_top[25].pi1,256,"(7, 4)",1,6176,-
+sysmem339,-,-,6176,"(42, 0)",0,0,-
+sysmem328,-,-,6176,"(26, 7)",0,0,-
+sysmem458,-,-,6176,"(7, 4)",0,0,-
+sysmem331,-,-,6176,"(25, 6)",0,0,-
+sysmem342,-,-,6176,"(0, 2)",0,2016,-
+sysmem461,-,-,6176,"(12, 3)",1,0,-
+
+
+PLIO,IN/OUT,TILE_COLUMN,CHANNEL
+p_ab_56,in,37,2
+p_ab_53,in,40,0
+p_ab_54,in,42,6
+p_ab_7,in,38,2
+p_ab_6,in,44,0
+result_2,out,41,0
+p_ab_35,in,19,6
+p_ab_78,in,19,2
+p_ab_80,in,20,2
+p_ab_79,in,20,4
+p_ab_72,in,43,4
+p_ab_48,in,41,6
+p_ab_28,in,12,2
+result_12,out,38,0
+p_ab_45,in,36,4
+p_ab_70,in,42,2
+p_ab_86,in,22,2
+p_ab_73,in,23,6
+p_ab_75,in,21,6
+p_ab_87,in,21,4
+p_ab_26,in,9,6
+p_ab_74,in,23,4
+p_ab_76,in,22,4
+p_ab_36,in,20,6
+result_20,out,19,2
+p_ab_103,in,23,0
+p_ab_105,in,7,0
+p_ab_108,in,10,6
+p_ab_69,in,44,4
+p_ab_20,in,6,0
+p_ab_8,in,39,4
+p_ab_31,in,38,6
+p_ab_90,in,43,2
+p_ab_65,in,43,0
+p_ab_18,in,8,6
+p_ab_66,in,42,4
+p_ab_67,in,43,6
+p_ab_77,in,19,4
+p_ab_29,in,37,6
+p_ab_68,in,44,6
+p_ab_32,in,38,4
+result_17,out,44,0
+p_ab_84,in,33,4
+p_ab_107,in,12,4
+result_24,out,33,0
+p_ab_83,in,33,6
+result_9,out,19,4
+p_ab_120,in,32,6
+result_14,out,39,0
+p_ab_3,in,32,4
+p_ab_102,in,22,0
+p_ab_96,in,32,2
+p_ab_46,in,37,4
+result_30,out,31,0
+p_ab_5,in,42,0
+result_5,out,6,4
+p_ab_117,in,31,4
+p_ab_2,in,30,4
+p_ab_126,in,14,0
+p_ab_125,in,13,4
+p_ab_58,in,16,2
+p_ab_89,in,41,4
+p_ab_13,in,14,4
+BR,out,6,3
+p_ab_106,in,8,0
+result_23,out,40,0
+p_ab_39,in,25,2
+result_7,out,9,4
+p_ab_51,in,15,4
+p_ab_64,in,6,4
+p_ab_30,in,36,6
+result_15,out,17,2
+p_ab_119,in,32,0
+p_ab_57,in,17,6
+p_ab_62,in,8,2
+p_ab_17,in,7,6
+p_ab_92,in,39,2
+TL,out,7,2
+p_ab_91,in,41,2
+p_ab_16,in,15,6
+result_8,out,37,0
+p_ab_52,in,15,2
+p_ab_12,in,9,4
+p_ab_127,in,14,6
+result_27,out,9,2
+p_ab_11,in,10,4
+p_ab_49,in,16,6
+result_4,out,13,4
+p_ab_97,in,33,2
+p_ab_21,in,27,6
+BL,out,6,2
+p_ab_71,in,44,2
+p_ab_23,in,28,2
+p_ab_59,in,18,4
+result_16,out,7,4
+p_ab_14,in,13,6
+p_ab_9,in,7,2
+p_ab_15,in,14,2
+p_ab_63,in,6,6
+p_ab_112,in,17,4
+TR,out,8,2
+result_3,out,8,4
+p_ab_61,in,11,0
+p_ab_110,in,18,6
+p_ab_81,in,34,6
+p_ab_60,in,18,2
+p_ab_128,in,15,0
+result_13,out,15,0
+p_ab_50,in,16,4
+p_ab_113,in,29,6
+p_ab_25,in,8,4
+result_1,out,30,0
+result_26,out,21,0
+p_ab_109,in,18,0
+p_ab_41,in,27,4
+result_32,out,13,2
+p_ab_115,in,28,6
+p_ab_27,in,10,2
+result_11,out,26,0
+p_ab_116,in,27,0
+p_ab_98,in,34,2
+p_ab_22,in,28,4
+result_22,out,22,4
+p_ab_38,in,25,4
+result_10,out,24,2
+p_ab_42,in,27,2
+p_ab_85,in,23,2
+p_ab_37,in,24,6
+p_ab_47,in,39,6
+p_ab_114,in,29,4
+result_31,out,24,4
+p_ab_123,in,24,4
+p_ab_124,in,25,6
+params,in,6,3
+p_ab_24,in,29,2
+p_ab_101,in,21,0
+result_19,out,22,2
+p_ab_95,in,30,2
+p_ab_55,in,36,2
+p_ab_122,in,25,0
+result_25,out,35,0
+p_ab_40,in,26,6
+p_ab_111,in,16,0
+result_29,out,28,0
+p_ab_44,in,26,2
+result_28,out,17,4
+p_ab_43,in,26,4
+p_ab_121,in,26,0
+p_ab_34,in,20,0
+p_ab_82,in,35,6
+p_ab_99,in,35,2
+p_ab_88,in,21,2
+p_ab_4,in,31,6
+p_ab_19,in,7,4
+p_ab_94,in,35,4
+p_ab_104,in,22,6
+result_21,out,34,0
+p_ab_10,in,12,6
+p_ab_93,in,34,4
+p_ab_33,in,19,0
+result_18,out,43,0
+p_ab_100,in,35,0
+result_6,out,29,0
+p_ab_1,in,30,0
+p_ab_118,in,30,6
+
+
+CLUSTER,KERNELS,TILE
+PT202,"aie_graph.k_mac_top[55],","(37, 2)"
+PT201,"aie_graph.k_mac_top[54],","(36, 2)"
+PT76,"aie_graph.k_out_pixels_merger_1[26],","(41, 2)"
+PT199,"aie_graph.k_mac_top[52],","(40, 2)"
+PT77,"aie_graph.k_out_pixels_merger_1[27],","(38, 2)"
+PT200,"aie_graph.k_mac_top[53],","(42, 2)"
+PT50,"aie_graph.k_out_pixels_merger_1[2],","(43, 0)"
+PT101,"aie_graph.k_mac_top[6],","(38, 0)"
+PT79,"aie_graph.k_mac_top[4],","(42, 0)"
+PT51,"aie_graph.k_out_pixels_merger_1[3],","(40, 0)"
+PT90,"aie_graph.k_mac_top[5],","(44, 0)"
+PT65,"aie_graph.k_out_pixels_merger_1[16],","(19, 6)"
+PT180,"aie_graph.k_mac_top[35],","(20, 4)"
+PT179,"aie_graph.k_mac_top[34],","(19, 4)"
+PT177,"aie_graph.k_mac_top[32],","(19, 7)"
+PT178,"aie_graph.k_mac_top[33],","(20, 6)"
+PT89,"aie_graph.k_out_pixels_merger_1[38],","(19, 2)"
+PT91,"aie_graph.k_out_pixels_merger_1[39],","(20, 1)"
+PT62,"aie_graph.k_out_pixels_merger_1[13],","(11, 3)"
+PT172,"aie_graph.k_mac_top[27],","(12, 3)"
+PT61,"aie_graph.k_out_pixels_merger_1[12],","(8, 3)"
+PT170,"aie_graph.k_mac_top[26],","(10, 3)"
+PT168,"aie_graph.k_mac_top[24],","(7, 3)"
+PT169,"aie_graph.k_mac_top[25],","(8, 4)"
+PT171,"aie_graph.k_coeff_Rj_inv,","(0, 4)"
+PT1,"aie_graph.k_coeff_Ri,","(0, 3)"
+PT160,"aie_graph.k_coeff_Rj,","(0, 5)"
+PT193,"aie_graph.k_merger_1_j,","(1, 4)"
+PT182,"aie_graph.k_merger_1_i,","(1, 3)"
+PT204,"aie_graph.k_merger_2,","(1, 5)"
+PT194,"aie_graph.k_mac_top[47],","(41, 3)"
+PT72,"aie_graph.k_out_pixels_merger_1[22],","(37, 3)"
+PT192,"aie_graph.k_mac_top[46],","(39, 3)"
+PT190,"aie_graph.k_mac_top[44],","(36, 3)"
+PT85,"aie_graph.k_out_pixels_merger_1[34],","(43, 4)"
+PT191,"aie_graph.k_mac_top[45],","(37, 4)"
+PT86,"aie_graph.k_out_pixels_merger_1[35],","(45, 3)"
+PT73,"aie_graph.k_out_pixels_merger_1[23],","(40, 3)"
+PT112,"aie_graph.k_coeff_Ri_inv,","(2, 4)"
+PT138,"aie_graph.k_out_pixels_merger_2[17],","(43, 3)"
+PT94,"aie_graph.k_out_pixels_merger_1[42],","(23, 1)"
+PT88,"aie_graph.k_out_pixels_merger_1[37],","(22, 6)"
+PT87,"aie_graph.k_out_pixels_merger_1[36],","(23, 5)"
+PT220,"aie_graph.k_mac_top[71],","(42, 3)"
+PT18,"aie_graph.k_mac_top[101],","(22, 4)"
+PT20,"aie_graph.k_mac_top[103],","(22, 2)"
+PT222,"aie_graph.k_mac_top[73],","(23, 6)"
+PT19,"aie_graph.k_mac_top[102],","(23, 2)"
+PT221,"aie_graph.k_mac_top[72],","(23, 4)"
+PT219,"aie_graph.k_mac_top[70],","(44, 3)"
+PT17,"aie_graph.k_mac_top[100],","(21, 5)"
+PT95,"aie_graph.k_out_pixels_merger_1[43],","(21, 1)"
+PT167,"aie_graph.k_mac_top[23],","(29, 5)"
+PT68,"aie_graph.k_mac_top[3],","(31, 1)"
+PT164,"aie_graph.k_mac_top[20],","(27, 6)"
+PT185,"aie_graph.k_mac_top[39],","(26, 0)"
+PT181,"aie_graph.k_mac_top[36],","(24, 1)"
+PT82,"aie_graph.k_out_pixels_merger_1[31],","(4, 0)"
+PT67,"aie_graph.k_out_pixels_merger_1[18],","(24, 2)"
+PT40,"aie_graph.k_mac_top[121],","(25, 5)"
+PT41,"aie_graph.k_mac_top[122],","(24, 5)"
+PT184,"aie_graph.k_mac_top[38],","(25, 1)"
+PT71,"aie_graph.k_out_pixels_merger_1[21],","(26, 3)"
+PT126,"aie_graph.k_out_pixels_merger_2[6],","(9, 3)"
+PT152,"aie_graph.k_out_pixels_merger_2[30],","(24, 6)"
+PT224,"aie_graph.k_mac_top[75],","(22, 7)"
+PT22,"aie_graph.k_mac_top[105],","(8, 7)"
+PT208,"aie_graph.k_mac_top[60],","(11, 2)"
+PT209,"aie_graph.k_mac_top[61],","(8, 0)"
+PT129,"aie_graph.k_out_pixels_merger_2[9],","(24, 0)"
+PT229,"aie_graph.k_mac_top[79],","(20, 2)"
+PT27,"aie_graph.k_mac_top[109],","(18, 1)"
+PT228,"aie_graph.k_mac_top[78],","(20, 0)"
+PT26,"aie_graph.k_mac_top[108],","(18, 0)"
+PT156,"aie_graph.k_mac_top[13],","(13, 1)"
+PT205,"aie_graph.k_mac_top[57],","(16, 6)"
+PT44,"aie_graph.k_mac_top[125],","(14, 7)"
+PT39,"aie_graph.k_mac_top[120],","(26, 6)"
+PT198,"aie_graph.k_mac_top[51],","(15, 1)"
+PT99,"aie_graph.k_out_pixels_merger_1[47],","(31, 0)"
+PT98,"aie_graph.k_out_pixels_merger_1[46],","(34, 0)"
+PT75,"aie_graph.k_out_pixels_merger_1[25],","(15, 3)"
+PT174,"aie_graph.k_mac_top[29],","(36, 5)"
+PT59,"aie_graph.k_out_pixels_merger_1[10],","(28, 6)"
+PT158,"aie_graph.k_mac_top[15],","(15, 0)"
+PT207,"aie_graph.k_mac_top[59],","(18, 5)"
+PT206,"aie_graph.k_mac_top[58],","(18, 6)"
+PT133,"aie_graph.k_out_pixels_merger_2[13],","(39, 2)"
+PT107,"aie_graph.k_out_pixels_merger_1[54],","(18, 2)"
+PT155,"aie_graph.k_mac_top[12],","(14, 2)"
+PT227,"aie_graph.k_mac_top[77],","(19, 3)"
+PT25,"aie_graph.k_mac_top[107],","(10, 6)"
+PT196,"aie_graph.k_mac_top[49],","(16, 0)"
+PT97,"aie_graph.k_out_pixels_merger_1[45],","(40, 5)"
+PT74,"aie_graph.k_out_pixels_merger_1[24],","(16, 2)"
+PT173,"aie_graph.k_mac_top[28],","(37, 5)"
+PT128,"aie_graph.k_out_pixels_merger_2[8],","(19, 5)"
+PT154,"aie_graph.k_mac_top[11],","(9, 2)"
+PT47,"aie_graph.k_mac_top[127],","(15, 6)"
+PT195,"aie_graph.k_mac_top[48],","(16, 5)"
+PT96,"aie_graph.k_out_pixels_merger_1[44],","(42, 6)"
+PT183,"aie_graph.k_mac_top[37],","(25, 2)"
+PT84,"aie_graph.k_out_pixels_merger_1[33],","(44, 6)"
+PT197,"aie_graph.k_mac_top[50],","(15, 5)"
+PT0,"aie_graph.k_coordinates_co,","(4, 2)"
+PT215,"aie_graph.k_coordinates_tr,","(6, 2)"
+PT13,"aie_graph.k_transform_BL,","(6, 0)"
+PT42,"aie_graph.k_mac_top[123],","(25, 7)"
+PT166,"aie_graph.k_mac_top[22],","(28, 7)"
+PT2,"aie_graph.k_transform_TR,","(8, 2)"
+PT78,"aie_graph.k_out_pixels_merger_1[28],","(17, 6)"
+PT5,"aie_graph.k_mac_top[89],","(42, 5)"
+PT110,"aie_graph.k_out_pixels_merger_1[57],","(28, 1)"
+PT136,"aie_graph.k_out_pixels_merger_2[15],","(7, 0)"
+PT203,"aie_graph.k_mac_top[56],","(17, 5)"
+PT130,"aie_graph.k_out_pixels_merger_2[10],","(26, 2)"
+PT104,"aie_graph.k_out_pixels_merger_1[51],","(22, 3)"
+PT55,"aie_graph.k_out_pixels_merger_1[7],","(14, 0)"
+PT45,"aie_graph.k_mac_top[126],","(14, 5)"
+PT109,"aie_graph.k_out_pixels_merger_1[56],","(29, 2)"
+PT135,"aie_graph.k_mac_top[9],","(12, 2)"
+PT54,"aie_graph.k_out_pixels_merger_1[6],","(13, 2)"
+PT108,"aie_graph.k_out_pixels_merger_1[55],","(17, 1)"
+PT134,"aie_graph.k_out_pixels_merger_2[14],","(17, 7)"
+PT81,"aie_graph.k_out_pixels_merger_1[30],","(9, 0)"
+PT120,"aie_graph.k_out_pixels_merger_2[1],","(41, 0)"
+PT146,"aie_graph.k_mac_top[10],","(10, 2)"
+PT218,"aie_graph.k_mac_top[69],","(42, 4)"
+PT16,"aie_graph.k_mac_top[99],","(35, 2)"
+PT60,"aie_graph.k_out_pixels_merger_1[11],","(29, 7)"
+PT159,"aie_graph.k_mac_top[16],","(5, 6)"
+PT52,"aie_graph.k_out_pixels_merger_1[4],","(0, 2)"
+PT165,"aie_graph.k_mac_top[21],","(28, 5)"
+PT24,"aie_graph.k_transform_BR,","(5, 2)"
+PT226,"aie_graph.k_transform_TL,","(7, 2)"
+PT143,"aie_graph.k_out_pixels_merger_2[22],","(40, 6)"
+PT117,"aie_graph.k_out_pixels_merger_1[62],","(13, 7)"
+PT80,"aie_graph.k_out_pixels_merger_1[29],","(18, 7)"
+PT43,"aie_graph.k_mac_top[124],","(13, 5)"
+PT127,"aie_graph.k_out_pixels_merger_2[7],","(37, 6)"
+PT153,"aie_graph.k_out_pixels_merger_2[31],","(13, 6)"
+PT225,"aie_graph.k_mac_top[76],","(19, 0)"
+PT23,"aie_graph.k_mac_top[106],","(12, 6)"
+PT157,"aie_graph.k_mac_top[14],","(14, 1)"
+PT58,"aie_graph.k_out_pixels_merger_1[9],","(3, 7)"
+PT186,"aie_graph.k_mac_top[40],","(27, 5)"
+PT187,"aie_graph.k_mac_top[41],","(27, 1)"
+PT188,"aie_graph.k_mac_top[42],","(26, 5)"
+PT124,"aie_graph.k_mac_top[8],","(3, 2)"
+PT150,"aie_graph.k_out_pixels_merger_2[28],","(28, 2)"
+PT69,"aie_graph.k_out_pixels_merger_1[19],","(25, 0)"
+PT189,"aie_graph.k_mac_top[43],","(26, 1)"
+PT70,"aie_graph.k_out_pixels_merger_1[20],","(27, 2)"
+PT235,"aie_graph.k_mac_top[85],","(22, 0)"
+PT33,"aie_graph.k_mac_top[115],","(27, 0)"
+PT125,"aie_graph.k_out_pixels_merger_2[5],","(29, 6)"
+PT151,"aie_graph.k_out_pixels_merger_2[29],","(31, 7)"
+PT223,"aie_graph.k_mac_top[74],","(21, 6)"
+PT21,"aie_graph.k_mac_top[104],","(7, 6)"
+PT217,"aie_graph.k_mac_top[68],","(44, 4)"
+PT15,"aie_graph.k_mac_top[98],","(35, 5)"
+PT115,"aie_graph.k_out_pixels_merger_1[60],","(25, 6)"
+PT141,"aie_graph.k_out_pixels_merger_2[20],","(34, 7)"
+PT140,"aie_graph.k_out_pixels_merger_2[19],","(19, 1)"
+PT114,"aie_graph.k_out_pixels_merger_1[59],","(32, 7)"
+PT11,"aie_graph.k_mac_top[95],","(32, 0)"
+PT213,"aie_graph.k_mac_top[65],","(42, 7)"
+PT102,"aie_graph.k_out_pixels_merger_1[49],","(35, 4)"
+PT118,"aie_graph.k_out_pixels_merger_1[63],","(14, 6)"
+PT144,"aie_graph.k_out_pixels_merger_2[23],","(33, 0)"
+PT216,"aie_graph.k_mac_top[67],","(44, 5)"
+PT14,"aie_graph.k_mac_top[97],","(34, 2)"
+PT100,"aie_graph.k_out_pixels_merger_1[48],","(34, 3)"
+PT93,"aie_graph.k_out_pixels_merger_1[41],","(33, 7)"
+PT92,"aie_graph.k_out_pixels_merger_1[40],","(34, 6)"
+PT38,"aie_graph.k_mac_top[119],","(32, 5)"
+PT236,"aie_graph.k_mac_top[86],","(21, 2)"
+PT34,"aie_graph.k_mac_top[116],","(31, 5)"
+PT28,"aie_graph.k_mac_top[110],","(16, 1)"
+PT230,"aie_graph.k_mac_top[80],","(34, 5)"
+PT57,"aie_graph.k_mac_top[2],","(32, 1)"
+PT29,"aie_graph.k_mac_top[111],","(17, 0)"
+PT231,"aie_graph.k_mac_top[81],","(35, 6)"
+PT35,"aie_graph.k_mac_top[0],","(30, 1)"
+PT49,"aie_graph.k_out_pixels_merger_1[1],","(31, 2)"
+PT214,"aie_graph.k_mac_top[66],","(43, 6)"
+PT12,"aie_graph.k_mac_top[96],","(33, 2)"
+PT116,"aie_graph.k_out_pixels_merger_1[61],","(24, 7)"
+PT142,"aie_graph.k_out_pixels_merger_2[21],","(22, 1)"
+PT36,"aie_graph.k_mac_top[117],","(30, 6)"
+PT30,"aie_graph.k_mac_top[112],","(29, 1)"
+PT232,"aie_graph.k_mac_top[82],","(33, 6)"
+PT145,"aie_graph.k_out_pixels_merger_2[24],","(35, 3)"
+PT119,"aie_graph.k_out_pixels_merger_2[0],","(30, 2)"
+PT3,"aie_graph.k_mac_top[87],","(21, 0)"
+PT210,"aie_graph.k_mac_top[62],","(5, 1)"
+PT8,"aie_graph.k_mac_top[92],","(34, 1)"
+PT37,"aie_graph.k_mac_top[118],","(32, 6)"
+PT31,"aie_graph.k_mac_top[113],","(29, 0)"
+PT233,"aie_graph.k_mac_top[83],","(33, 5)"
+PT46,"aie_graph.k_mac_top[1],","(30, 5)"
+PT211,"aie_graph.k_mac_top[63],","(5, 0)"
+PT9,"aie_graph.k_mac_top[93],","(35, 0)"
+PT113,"aie_graph.k_mac_top[7],","(39, 0)"
+PT139,"aie_graph.k_out_pixels_merger_2[18],","(22, 5)"
+PT48,"aie_graph.k_out_pixels_merger_1[0],","(30, 3)"
+PT111,"aie_graph.k_out_pixels_merger_1[58],","(31, 6)"
+PT137,"aie_graph.k_out_pixels_merger_2[16],","(44, 7)"
+PT176,"aie_graph.k_mac_top[31],","(38, 7)"
+PT10,"aie_graph.k_mac_top[94],","(30, 0)"
+PT212,"aie_graph.k_mac_top[64],","(43, 5)"
+PT175,"aie_graph.k_mac_top[30],","(38, 5)"
+PT106,"aie_graph.k_out_pixels_merger_1[53],","(11, 6)"
+PT132,"aie_graph.k_out_pixels_merger_2[12],","(15, 2)"
+PT7,"aie_graph.k_mac_top[91],","(39, 5)"
+PT66,"aie_graph.k_out_pixels_merger_1[17],","(20, 5)"
+PT4,"aie_graph.k_mac_top[88],","(41, 6)"
+PT131,"aie_graph.k_out_pixels_merger_2[11],","(38, 3)"
+PT105,"aie_graph.k_out_pixels_merger_1[52],","(8, 6)"
+PT53,"aie_graph.k_out_pixels_merger_1[5],","(1, 2)"
+PT6,"aie_graph.k_mac_top[90],","(41, 5)"
+PT63,"aie_graph.k_out_pixels_merger_1[14],","(36, 6)"
+PT162,"aie_graph.k_mac_top[18],","(5, 7)"
+PT64,"aie_graph.k_out_pixels_merger_1[15],","(38, 6)"
+PT163,"aie_graph.k_mac_top[19],","(4, 7)"
+PT83,"aie_graph.k_out_pixels_merger_1[32],","(43, 7)"
+PT122,"aie_graph.k_out_pixels_merger_2[3],","(13, 0)"
+PT148,"aie_graph.k_out_pixels_merger_2[26],","(9, 6)"
+PT56,"aie_graph.k_out_pixels_merger_1[8],","(3, 6)"
+PT161,"aie_graph.k_mac_top[17],","(6, 6)"
+PT149,"aie_graph.k_out_pixels_merger_2[27],","(17, 2)"
+PT123,"aie_graph.k_out_pixels_merger_2[4],","(4, 6)"
+PT121,"aie_graph.k_out_pixels_merger_2[2],","(2, 2)"
+PT147,"aie_graph.k_out_pixels_merger_2[25],","(21, 3)"
+PT103,"aie_graph.k_out_pixels_merger_1[50],","(21, 4)"
+PT32,"aie_graph.k_mac_top[114],","(28, 0)"
+PT234,"aie_graph.k_mac_top[84],","(23, 0)"
