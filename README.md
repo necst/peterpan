@@ -16,6 +16,7 @@ to iteratively refine transformation parameters based on user-defined settings. 
 - OpenCV 4.0.0 - static library
 - Python 3.8
 - GCC 7.3.1
+- ITK 5.3.0
 - OS: Ubuntu 22.02
   
 *Note: [NOT TESTED] As we do not use any OS-specific feature, different Linux-based OS versions may work as well.*
