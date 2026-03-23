@@ -10,7 +10,7 @@ PeterPan is designed to address the computational challenges in both key compone
 to iteratively refine transformation parameters based on user-defined settings. The final output is a registered floating volume.*
 
 ## Requirements
-- Hardware Device: Versal VCK5000 XDMA2022.1
+- Hardware Device: Versal VCK5000 2022.2 QDMA Platform
 - Vitis 2023.1
 - XRT 2023.1
 - OpenCV 4.0.0 - static library
