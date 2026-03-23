@@ -68,26 +68,26 @@ DS_PE := 8
 
 # 4. Preliminary Steps
 
-## 4.a Clone the repository
+## Clone the repository
 
 ```
 git clone https://github.com/necst/peterpan.git
 ```
 
-## 4.b Move into the repository
+## Move into the repository
 
 ```
 cd peterpan
 ```
 
-## 4.c Source Vitis and XRT
+## Source Vitis and XRT
 
 ```
 source <PATH_TO_XRT>/setup.sh
 source <PATH_TO_VITIS>/settings64.sh # Only required if building a new bitstream
 ```
 
-## 4.d (Optional) Build PeterPan Design
+## (Optional) Build PeterPan Design
 
 Skip this step if you want to use the provided bitstream.
 
@@ -100,9 +100,9 @@ If you build the bitstream, replace the existing `PeterPan.xclbin` in the `bitst
 
 ---
 
-## 4.e Dependencies Installation
+## 4.a Dependencies Installation
 
-### 4.e.1 OpenCV Installation
+### 4.a.1 OpenCV Installation
 
 ```
 mkdir ~/opencv_build && cd ~/opencv_build
@@ -129,7 +129,7 @@ Optional dependencies: to be installed in case of failures during opencv install
 sudo apt install build-essential cmake git libgtk-3-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev openexr libatlas-base-dev libopenexr-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev python3-dev python3-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-dev gfortran -y
 ```
 
-### 4.e.2 ITK Installation
+### 4.a.2 ITK Installation
 
 ```
 wget https://codeload.github.com/InsightSoftwareConsortium/ITK/zip/refs/tags/v5.3.0
@@ -146,7 +146,7 @@ Alternatively:
 sudo apt install libinsighttoolkit5-dev
 ```
 
-### 4.e.3 PyENV Installation
+### 4.a.3 PyENV Installation
 
 ```
 sudo apt update; sudo apt install make build-essential libssl-dev zlib1g-dev \
