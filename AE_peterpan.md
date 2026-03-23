@@ -4,7 +4,7 @@ This document describes how to reproduce the results presented in the paper "Ada
 
 Specifically, we provide instructions on how to compile the host applications and run the experiments using the prepared bitstreams to reproduce the results presented in the paper.
 
-The figures that can be reproduced are the following:
+The following figures can be reproduced:
 
 - [Figure 6](#figure-6-registration-step) — Registration Step
 - [Figure 7](#figure-7-pyramidal-level-scaling) — Pyramidal Level Scaling
@@ -45,11 +45,12 @@ To close this gap, we propose **PeterPan**, a Versal-based accelerator for 3D ri
 
 # Experiments Workflow
 
-The folder `bitstreams/` contains the bitstreams used for the evaluation.
+The folder `bitstreams/` already contains the pre-built bitstream `PeterPan.xclbin` used for the evaluation.
 
-Alternatively, the bitstreams can be rebuilt by following the instructions in the **building** section of the repository.
+You can directly use this bitstream to reproduce the results.  
+Alternatively, you may rebuild the bitstream by following the instructions below. In that case, replace the existing `PeterPan.xclbin` in the `bitstreams/` folder with the newly generated one.
 
-The hardware configuration used in the experiments is already defined in `default.cfg` and does not need modifications to reproduce the paper results.
+The hardware configuration used in the experiments is defined in `default.cfg` and does not require modifications.
 
 ```
 # ARCHITECTURE PARAMETERS (any change requires hardware build)
@@ -65,37 +66,43 @@ DS_PE := 8
 
 ---
 
-# Preliminary Steps
+# 4. Preliminary Steps
 
-## 1. Clone the repository
+## 4.a Clone the repository
 
 ```
 git clone https://github.com/necst/peterpan.git
 ```
 
-## 2. Move into the repository
+## 4.b Move into the repository
 
 ```
 cd peterpan
 ```
 
-## 3. Source Vitis and XRT
+## 4.c Source Vitis and XRT
 
 ```
 source <PATH_TO_XRT>/setup.sh
-source <PATH_TO_VITIS>/settings64.sh # Only for building a new bitstream
+source <PATH_TO_VITIS>/settings64.sh # Only required if building a new bitstream
 ```
 
-## 4. Build PeterPan Design
+## 4.d (Optional) Build PeterPan Design
+
+Skip this step if you want to use the provided bitstream.
 
 ```
 make config
 make build_hw TARGET=hw TASK=STEP
 ```
 
-## 4a. Dependencies Installation
+If you build the bitstream, replace the existing `PeterPan.xclbin` in the `bitstreams/` folder with the generated one.
 
-### 4a.1 OpenCV Installation
+---
+
+## 4.e Dependencies Installation
+
+### 4.e.1 OpenCV Installation
 
 ```
 mkdir ~/opencv_build && cd ~/opencv_build
@@ -116,13 +123,13 @@ export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig:$PKG_CONFIG_PATH
 export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
 ```
 
-Optional dependencies:
+Optional dependencies: to be installed in case of failures during opencv install process:
 
 ```
 sudo apt install build-essential cmake git libgtk-3-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev openexr libatlas-base-dev libopenexr-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev python3-dev python3-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-dev gfortran -y
 ```
 
-### 4a.2 ITK Installation
+### 4.e.2 ITK Installation
 
 ```
 wget https://codeload.github.com/InsightSoftwareConsortium/ITK/zip/refs/tags/v5.3.0
@@ -139,7 +146,7 @@ Alternatively:
 sudo apt install libinsighttoolkit5-dev
 ```
 
-### 4a.3 PyENV Installation
+### 4.e.3 PyENV Installation
 
 ```
 sudo apt update; sudo apt install make build-essential libssl-dev zlib1g-dev \
@@ -153,7 +160,9 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## 5. Prepare the build
+---
+
+# 5. Prepare the build
 
 ```
 export PATH=/usr/bin:$PATH
@@ -165,7 +174,9 @@ export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
 
 This will create the `build/` directory containing the `.zip` files for the experiments.
 
-## 6. Deployment
+---
+
+# 6. Deployment
 
 Move the `build/` directory to the deployment machine.
 
@@ -182,7 +193,7 @@ make build_sw
 
 - `<device_id>`: Device ID for the target platform
 
-Output: `figure6.pdf`
+The output image will be in the running folder, named `figure6.pdf`.
 
 ---
 
@@ -215,7 +226,7 @@ cd PeterPan_APP/3DIRG_Application/
 - `<device_id>`: Device ID for the target platform  
 - Experiment number corresponding to the paper figure  
 
-Output: `figure7.pdf`
+The output image will be in the running folder, named `figure7.pdf`.
 
 ---
 
@@ -248,4 +259,4 @@ Only the `auto` mode generates Figure 8.
 - Experiment number corresponding to the paper figure  
 - Subvolume selection mode: `fixed` disables it  
 
-Output: `figure8.pdf`
+The output image will be in the running folder, named `figure8.pdf`.
