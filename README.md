@@ -122,4 +122,16 @@ Each folder contains a subfolder with the figure name, and a dedicated readme fo
 
 ## Paper Citation
 
-TO BE ADDED
+If you find this repository useful, please use the following citation:
+
+```latex
+@inproceedings{adaptiveaiepl26sorrentino,
+  title={Adaptive AIE–PL Systems for Efficient End-to-End Pyramidal 3D Image Registration},
+  author={Sorrentino, Giuseppe and Galfano, Paolo S. and Di Salvo, Claudio and  D'Arnese, Eleonora and Conficconi, Davide},
+   booktitle={2026 IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM)},
+  pages={1-12},
+  year={2026},
+  doi="accepted--to--appear",
+  selected={true}
+}
+```
