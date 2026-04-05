@@ -111,6 +111,15 @@ else
     exit 1
 fi
 
+# Copy dataset_downloader.sh at the same level as common and 3DIRG_application
+if [ -f "./scripts/dataset_downloader.sh" ]; then
+    cp "./scripts/dataset_downloader.sh" "$pack_app_dir/"
+    chmod +x "$pack_app_dir/dataset_downloader.sh"
+else
+    echo "Errore: file ./scripts/dataset_downloader.sh non trovato"
+    exit 1
+fi
+
 # In APP, the bitstream must be directly inside 3DIRG_application
 app_dir="${pack_app_dir}/3DIRG_application"
 if [ -d "$app_dir" ]; then
@@ -181,6 +190,7 @@ echo "  * ${step_dir}/sw"
 echo "  * ${step_dir}/common"
 echo "  * ${step_dir}/default.cfg"
 echo "- AE package: $pack_app_dir"
+echo "  * ${pack_app_dir}/dataset_downloader.sh"
 echo "--------------------"
 
 zip -r "build/${folder_name}.zip" "$step_dir"
