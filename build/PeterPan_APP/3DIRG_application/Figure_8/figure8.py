@@ -10,7 +10,7 @@ from pathlib import Path
 # PATHS
 # ============================================================
 SCRIPT_DIR = Path(__file__).resolve().parent
-CSV_DIR = SCRIPT_DIR 
+CSV_DIR = SCRIPT_DIR
 
 # ============================================================
 # GLOBAL STYLE
@@ -364,39 +364,39 @@ def make_plot(df, xcol, ycol, xlabel, filename,
 # ============================================================
 # FIGURE 7a — Transformation & Interpolation
 # ============================================================
-df_vitis = pd.read_csv(csv_path("time", "VitisLibrary_246_ExecTime.csv"))
+df_vitis = pd.read_csv(csv_path("", "VitisLibrary_246_ExecTime.csv"))
 df_vitis = df_vitis.rename(columns={"Time": "Time"})
 df_vitis["Config"] = "VitisLib\nVCK5000"
 
-df_itk = pd.read_csv(csv_path("time", "itk_u7_o3.csv"))
+df_itk = pd.read_csv(csv_path("", "itk_u7_o3.csv"))
 df_itk = df_itk.rename(columns={"TxTime": "Time"})
 df_itk["Config"] = df_itk["Config"].apply(norm)
 
-df_matlab = pd.read_csv(csv_path("time", "matlab_i7_11.csv"))
+df_matlab = pd.read_csv(csv_path("", "matlab_i7_11.csv"))
 df_matlab = df_matlab.rename(columns={"tx": "Time"})
 df_matlab["Config"] = "Matlab\ni7-13620H"
 
-df_heph = pd.read_csv(csv_path("time", "hephaestus.csv"))
+df_heph = pd.read_csv(csv_path("", "hephaestus.csv"))
 df_heph = df_heph.rename(columns={"TxTime": "Time"})
 df_heph["Config"] = "Hephaestus\nCPU + U280 "
 
-df_A5000 = pd.read_csv(csv_path("time", "A5000_output_bilinear_512.csv"))
+df_A5000 = pd.read_csv(csv_path("", "A5000_output_bilinear_512.csv"))
 df_A5000 = df_A5000.rename(columns={"tx": "Time"})
 df_A5000["Config"] = "Kornia\nA5000"
 
-df_A100 = pd.read_csv(csv_path("time", "A100_output_bilinear_512.csv"))
+df_A100 = pd.read_csv(csv_path("", "A100_output_bilinear_512.csv"))
 df_A100 = df_A100.rename(columns={"tx": "Time"})
 df_A100["Config"] = "Kornia\nA100"
 
-df_RTX = pd.read_csv(csv_path("time", "RTX4050_output_bilinear_512.csv"))
+df_RTX = pd.read_csv(csv_path("", "RTX4050_output_bilinear_512.csv"))
 df_RTX = df_RTX.rename(columns={"tx": "Time"})
 df_RTX["Config"] = "Kornia\nRTX4050"
 
-df_VCK_128 = pd.read_csv(csv_path("time", "time_t08_aieplfreq_D512_N256_B032_I128_S16_TX_v202301_qdma.csv"))
+df_VCK_128 = pd.read_csv(csv_path("", "time_t08_aieplfreq_D512_N256_B032_I128_S16_TX_v202301_qdma.csv"))
 df_VCK_128 = df_VCK_128.rename(columns={"exec_time": "Time"})
 df_VCK_128["Config"] = "TRILLI\nVCK5000"
 
-df_VCK_128_sw = pd.read_csv(csv_path("time", "time_IPE128_D512_R512_C256_only_tx_sw_prog.csv"))
+df_VCK_128_sw = pd.read_csv(csv_path("", "time_IPE128_D512_R512_C256_only_tx_sw_prog.csv"))
 df_VCK_128_sw = df_VCK_128_sw.rename(columns={"exec_time": "Time"})
 df_VCK_128_sw["Config"] = "TRILLI\nVCK5000_128_SW_PROG"
 
@@ -417,43 +417,43 @@ df_plot1.loc[df_plot1["Config"] == "TRILLI\nVCK5000_128_SW_PROG", "Config"] = PE
 # ============================================================
 # FIGURE 7b — Registration Step (TX + MI)
 # ============================================================
-df_itk2 = pd.read_csv(csv_path("time", "itk_u7_o3.csv"))
+df_itk2 = pd.read_csv(csv_path("", "itk_u7_o3.csv"))
 df_itk2 = df_itk2.rename(columns={"ExeTime": "Time"})
 df_itk2["Config"] = "ITK\nU7155H"
 
-df_mat2 = pd.read_csv(csv_path("time", "matlab_i7_11.csv"))
+df_mat2 = pd.read_csv(csv_path("", "matlab_i7_11.csv"))
 df_mat2 = df_mat2.rename(columns={"tot": "Time"})
 df_mat2["Config"] = "Matlab\ni7-13620H"
 
-df_heph2 = pd.read_csv(csv_path("time", "hephaestus.csv"))
+df_heph2 = pd.read_csv(csv_path("", "hephaestus.csv"))
 df_heph2["Config"] = "Hephaestus\nCPU + U280 "
 df_heph2["Time"] = df_heph2["ExeTime"]
 
-df_A5000_2 = pd.read_csv(csv_path("time", "A5000_output_bilinear_512.csv"))
+df_A5000_2 = pd.read_csv(csv_path("", "A5000_output_bilinear_512.csv"))
 df_A5000_2 = df_A5000_2.rename(columns={"tot": "Time"})
 df_A5000_2["Config"] = "Kornia\nA5000"
 
-df_A100_2 = pd.read_csv(csv_path("time", "A100_output_bilinear_512.csv"))
+df_A100_2 = pd.read_csv(csv_path("", "A100_output_bilinear_512.csv"))
 df_A100_2 = df_A100_2.rename(columns={"tot": "Time"})
 df_A100_2["Config"] = "Kornia\nA100"
 
-df_RTX_2 = pd.read_csv(csv_path("time", "RTX4050_output_bilinear_512.csv"))
+df_RTX_2 = pd.read_csv(csv_path("", "RTX4050_output_bilinear_512.csv"))
 df_RTX_2 = df_RTX_2.rename(columns={"tot": "Time"})
 df_RTX_2["Config"] = "Kornia\nRTX4050"
 
-df_VCK2 = pd.read_csv(csv_path("time", "TRILLI_VCK5000_128_IPE.csv"))
+df_VCK2 = pd.read_csv(csv_path("", "TRILLI_VCK5000_128_IPE.csv"))
 df_VCK2 = df_VCK2.rename(columns={"exec_time": "Time"})
 df_VCK2["Config"] = "TRILLI\nVCK5000"
 
-df_sw_noopt = pd.read_csv(csv_path("time", "time_IPE128_D512_R512_C256_step.csv"))
+df_sw_noopt = pd.read_csv(csv_path("", "time_IPE128_D512_R512_C256_step.csv"))
 df_sw_noopt = df_sw_noopt.rename(columns={"exec_time": "Time"})
 df_sw_noopt["Config"] = PETERPAN_2_NOOPT
 
-df_sw_opt = pd.read_csv(csv_path("time", "time_IPE128_D512_R512_C256_step_opt.csv"))
+df_sw_opt = pd.read_csv(csv_path("", "time_IPE128_D512_R512_C256_step_opt.csv"))
 df_sw_opt = df_sw_opt.rename(columns={"exec_time": "Time"})
 df_sw_opt["Config"] = PETERPAN_2
 
-PETERPAN_1_CSV = csv_path("time", "time_IPE128_D512_R512_C256_peterpan1level.csv")
+PETERPAN_1_CSV = csv_path("", "time_IPE128_D512_R512_C256_peterpan1level.csv")
 df_peter1_time = read_time_csv_flexible(PETERPAN_1_CSV, preferred_cols=("exec_time", "Time", "time", "tot"))
 df_peter1_time["Config"] = PETERPAN_1
 df_peter1 = df_peter1_time[["Config", "Time"]]
@@ -473,21 +473,21 @@ df_plot2 = pd.concat([
 # ============================================================
 # FIGURE 7c — Complete 3D Registration
 # ============================================================
-df_itkP = load_clean_csv(csv_path("time", "itk_pow_estimate_o3.csv"), "ITK\nU7155H", "Time")
-df_sitkP = load_clean_csv(csv_path("time", "TimeSitkpowi7.csv"), "SITK-I7", "Time")
-df_hephP = load_clean_csv(csv_path("time", "TimePow_u280_8pe_16pen_2C_cache_noprint.csv"), "Hephaestus", "Time")
+df_itkP = load_clean_csv(csv_path("", "itk_pow_estimate_o3.csv"), "ITK\nU7155H", "Time")
+df_sitkP = load_clean_csv(csv_path("", "TimeSitkpowi7.csv"), "SITK-I7", "Time")
+df_hephP = load_clean_csv(csv_path("", "TimePow_u280_8pe_16pen_2C_cache_noprint.csv"), "Hephaestus", "Time")
 
-df_A5000P = load_clean_csv(csv_path("time", "Powell_classicMoments_ampere.csv"), "Athena_A5000", "Time")
-df_V100P = load_clean_csv(csv_path("time", "Powell_classicMoments_mem_constr_oci.csv"), "Athena_V100", "Time")
-df_A100P = load_clean_csv(csv_path("time", "TimePowell_A100.csv"), "Athena_A100", "Time")
-df_RTX4050P = load_clean_csv(csv_path("time", "TimePowell_RTX4050.csv"), "Athena_RTX4050", "Time")
+df_A5000P = load_clean_csv(csv_path("", "Powell_classicMoments_ampere.csv"), "Athena_A5000", "Time")
+df_V100P = load_clean_csv(csv_path("", "Powell_classicMoments_mem_constr_oci.csv"), "Athena_V100", "Time")
+df_A100P = load_clean_csv(csv_path("", "TimePowell_A100.csv"), "Athena_A100", "Time")
+df_RTX4050P = load_clean_csv(csv_path("", "TimePowell_RTX4050.csv"), "Athena_RTX4050", "Time")
 
-df_ICARUS = load_clean_csv(csv_path("time", "TRILLI_3DIRG_pow.csv"), "TRILLI\nVCK5000", "withPCIE_time")
+df_ICARUS = load_clean_csv(csv_path("", "TRILLI_3DIRG_pow.csv"), "TRILLI\nVCK5000", "withPCIE_time")
 
-df_pyr2 = load_clean_csv(csv_path("time", "only_pyr_timings_dz256_levels2.csv"), PETERPAN_ONLYPYR, "e2e_total_time_nosetup")
-df_peter = load_clean_csv(csv_path("time", "timings_dz32_levels4.csv"), PETERPAN_2, "e2e_total_time_nosetup")
+df_pyr2 = load_clean_csv(csv_path("", "only_pyr_timings_dz256_levels2.csv"), PETERPAN_ONLYPYR, "e2e_total_time_nosetup")
+df_peter = load_clean_csv(csv_path("", "timings_dz32_levels4.csv"), PETERPAN_2, "e2e_total_time_nosetup")
 df_trilli_pyr = load_clean_csv(
-    csv_path("time", "timings_dz32_levels4_pyr_no_sw_prog.csv"),
+    csv_path("", "timings_dz32_levels4_pyr_no_sw_prog.csv"),
     TRILLI_PYR,
     "e2e_total_time_nosetup"
 )
@@ -529,26 +529,12 @@ for label in ORDER:
         ORDER_7C.append(label)
 
 # ============================================================
-# GENERATE FIGURES
+# GENERATE FIGURE 8 ONLY
 # ============================================================
-print("Generating Figure 7a...")
-make_plot(df_plot1, "Config", "Time",
-          "Transformation & Interpolation",
-          "figure7a")
-
-print("Generating Figure 7b...")
-make_plot(df_plot2, "Config", "Time",
-          "Registration Step (TX + MI)",
-          "figure7b",
-          legend_bbox_override=(0.63, 0.90),
-          legend_labelspacing_override=1.3,
-          legend_columnspacing_override=3.3,
-          ylabel="Execution Time [s]")
-
-print("Generating Figure 7c...")
+print("Generating Figure 8...")
 make_plot(df_plot3, "Config", "Time",
           "Complete 3D Registration",
-          "figure7c",
+          "figure8",
           order_override=ORDER_7C,
           legend_ncol_override=5,
           legend_labelspacing_override=1.3,
@@ -556,4 +542,4 @@ make_plot(df_plot3, "Config", "Time",
           legend_bbox_override=(0.65, 0.90),
           ylabel="End-To-End Execution Time [s]")
 
-print("DONE — PDF/SVG SAVED!")
+print("DONE — figure8.pdf / figure8.svg SAVED!")

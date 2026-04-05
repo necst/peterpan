@@ -243,38 +243,38 @@ def make_plot(df, xcol, ycol, xlabel, filename, ylabel="Time [s]"):
 # ============================================================
 # FIGURE 6 = old FIGURE 7a — Transformation & Interpolation
 # ============================================================
-df_vitis = pd.read_csv(csv_path("time", "VitisLibrary_246_ExecTime.csv"))
+df_vitis = pd.read_csv(csv_path("", "VitisLibrary_246_ExecTime.csv"))
 df_vitis["Config"] = "VitisLib\nVCK5000"
 
-df_itk = pd.read_csv(csv_path("time", "itk_u7_o3.csv"))
+df_itk = pd.read_csv(csv_path("", "itk_u7_o3.csv"))
 df_itk = df_itk.rename(columns={"TxTime": "Time"})
 df_itk["Config"] = "ITK\nu7_o3"
 
-df_matlab = pd.read_csv(csv_path("time", "matlab_i7_11.csv"))
+df_matlab = pd.read_csv(csv_path("", "matlab_i7_11.csv"))
 df_matlab = df_matlab.rename(columns={"tx": "Time"})
 df_matlab["Config"] = "Matlab\ni7-13620H"
 
-df_heph = pd.read_csv(csv_path("time", "hephaestus.csv"))
+df_heph = pd.read_csv(csv_path("", "hephaestus.csv"))
 df_heph = df_heph.rename(columns={"TxTime": "Time"})
 df_heph["Config"] = "Hephaestus\nCPU + U280 "
 
-df_A5000 = pd.read_csv(csv_path("time", "A5000_output_bilinear_512.csv"))
+df_A5000 = pd.read_csv(csv_path("", "A5000_output_bilinear_512.csv"))
 df_A5000 = df_A5000.rename(columns={"tx": "Time"})
 df_A5000["Config"] = "Kornia\nA5000"
 
-df_A100 = pd.read_csv(csv_path("time", "A100_output_bilinear_512.csv"))
+df_A100 = pd.read_csv(csv_path("", "A100_output_bilinear_512.csv"))
 df_A100 = df_A100.rename(columns={"tx": "Time"})
 df_A100["Config"] = "Kornia\nA100"
 
-df_RTX = pd.read_csv(csv_path("time", "RTX4050_output_bilinear_512.csv"))
+df_RTX = pd.read_csv(csv_path("", "RTX4050_output_bilinear_512.csv"))
 df_RTX = df_RTX.rename(columns={"tx": "Time"})
 df_RTX["Config"] = "Kornia\nRTX4050"
 
-df_VCK_128 = pd.read_csv(csv_path("time", "time_t08_aieplfreq_D512_N256_B032_I128_S16_TX_v202301_qdma.csv"))
+df_VCK_128 = pd.read_csv(csv_path("", "time_t08_aieplfreq_D512_N256_B032_I128_S16_TX_v202301_qdma.csv"))
 df_VCK_128 = df_VCK_128.rename(columns={"exec_time": "Time"})
 df_VCK_128["Config"] = "TRILLI\nVCK5000"
 
-df_VCK_128_sw = pd.read_csv(csv_path("time", "time_IPE128_D512_R512_C256_only_tx_sw_prog.csv"))
+df_VCK_128_sw = pd.read_csv(csv_path("", "time_IPE128_D512_R512_C256_peterpan.csv"))
 df_VCK_128_sw = df_VCK_128_sw.rename(columns={"exec_time": "Time"})
 df_VCK_128_sw["Config"] = PETERPAN_2
 

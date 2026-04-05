@@ -151,7 +151,7 @@ int main(int argc, char* argv[]) {
     // set the filename as time_IPEX_DYY_NXX.csv where X is the Number of IPE, YY
     // is the image resolution (DIMENSION) and XX is the given n_couples
     std::string filename = "time_IPE" + std::to_string(INT_PE) + "_D" + std::to_string(n_row) + "_R" +
-                           std::to_string(n_col) + "_C" + std::to_string(n_couples) + ".csv";
+                           std::to_string(n_col) + "_C" + std::to_string(n_couples) + "_peterpan.csv";
     outfile.open(filename, std::ios_base::out);  // append instead of overwrite
     outfile << "exec_time,write_time,read_time" << std::endl;
     std::ofstream outfile_sw;

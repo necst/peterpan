@@ -89,6 +89,53 @@ setup_figure7_env() {
     PYENV_VERSION="$ENV_NAME" pyenv exec python -m pip install -r "$REQUIREMENTS_FILE"
 }
 
+setup_figure8_env() {
+    local FIG8_DIR="$1"
+    local PYTHON_VERSION="3.11.4"
+    local ENV_NAME="figure8"
+    local REQUIREMENTS_FILE="$FIG8_DIR/requirements.txt"
+
+    if ! command -v pyenv >/dev/null 2>&1; then
+        echo "Errore: pyenv non trovato nel PATH"
+        exit 1
+    fi
+
+    export PYENV_ROOT="${PYENV_ROOT:-$HOME/.pyenv}"
+    export PATH="$PYENV_ROOT/bin:$PATH"
+
+    eval "$(pyenv init -)"
+
+    if [ -d "$PYENV_ROOT/plugins/pyenv-virtualenv" ]; then
+        eval "$(pyenv virtualenv-init -)"
+    else
+        echo "Errore: plugin pyenv-virtualenv non trovato in $PYENV_ROOT/plugins/pyenv-virtualenv"
+        exit 1
+    fi
+
+    if ! pyenv versions --bare | grep -Fxq "$PYTHON_VERSION"; then
+        echo "Installing Python $PYTHON_VERSION with pyenv..."
+        pyenv install "$PYTHON_VERSION"
+    else
+        echo "Python $PYTHON_VERSION already available"
+    fi
+
+    if ! pyenv versions --bare | grep -Fxq "$ENV_NAME"; then
+        echo "Creating virtualenv $ENV_NAME..."
+        pyenv virtualenv "$PYTHON_VERSION" "$ENV_NAME"
+    else
+        echo "Virtualenv $ENV_NAME already exists"
+    fi
+
+    if [ ! -f "$REQUIREMENTS_FILE" ]; then
+        echo "Errore: requirements.txt non trovato: $REQUIREMENTS_FILE"
+        exit 1
+    fi
+
+    echo "Installing Python packages from $REQUIREMENTS_FILE ..."
+    PYENV_VERSION="$ENV_NAME" pyenv exec python -m pip install --upgrade pip
+    PYENV_VERSION="$ENV_NAME" pyenv exec python -m pip install -r "$REQUIREMENTS_FILE"
+}
+
 run_figure7() {
     local BIN="$1"
     local CT_DIR="$2"
@@ -192,6 +239,8 @@ run_figure8() {
 
     local FIG8_DIR="$SCRIPT_DIR/Figure_8"
     local OUTPUT_LINK="$FIG8_DIR/output_folder"
+    local FIG8_PY="$FIG8_DIR/figure8.py"
+    local FIG8_REQUIREMENTS="$FIG8_DIR/requirements.txt"
 
     local TYPE="png"
     local GRADIENT="itk"
@@ -322,6 +371,35 @@ run_figure8() {
 
     rm -rf "$OUTPUT_LINK"
     ln -sfn "$FIG8_DIR/output" "$OUTPUT_LINK"
+
+    if [ "$FIG8_RUN_MODE" = "auto" ]; then
+        local CSV_SRC="$FIG8_DIR/output_folder/timings_dz32_levels4.csv"
+        local CSV_DST="$FIG8_DIR/timings_dz32_levels4.csv"
+
+        if [ ! -f "$CSV_SRC" ]; then
+            echo "Errore: file timings non trovato: $CSV_SRC"
+            exit 1
+        fi
+
+        cp "$CSV_SRC" "$CSV_DST"
+        echo "Copiato: $CSV_SRC -> $CSV_DST"
+
+        if [ ! -f "$FIG8_PY" ]; then
+            echo "Errore: script figure8.py non trovato: $FIG8_PY"
+            exit 1
+        fi
+
+        if [ ! -f "$FIG8_REQUIREMENTS" ]; then
+            echo "Errore: requirements.txt non trovato: $FIG8_REQUIREMENTS"
+            exit 1
+        fi
+
+        echo "Setting up pyenv environment for Figure 8..."
+        setup_figure8_env "$FIG8_DIR"
+
+        echo "Running Figure 8 Python script..."
+        PYENV_VERSION="figure8" pyenv exec python "$FIG8_PY"
+    fi
 
     echo "Output disponibile in: $FIG8_DIR/output"
 }
