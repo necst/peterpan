@@ -10,13 +10,14 @@ PeterPan is designed to address the computational challenges in both key compone
 to iteratively refine transformation parameters based on user-defined settings. The final output is a registered floating volume.*
 
 ## Requirements
-- Hardware Device: Versal VCK5000 XDMA2022.1
+- Hardware Device: Versal VCK5000 2022.2 QDMA Platform
 - Vitis 2023.1
 - XRT 2023.1
 - OpenCV 4.0.0 - static library
 - Python 3.8
 - GCC 7.3.1
-- OS: Ubuntu 22.02
+- ITK 5.3.0
+- OS: Ubuntu 22.04
   
 *Note: [NOT TESTED] As we do not use any OS-specific feature, different Linux-based OS versions may work as well.*
 
@@ -62,7 +63,7 @@ sudo apt install build-essential cmake git libgtk-3-dev pkg-config libavcodec-de
 ## FCCM26 Artifact Evaluation
 For artifact evaluation, see the [AE_peterpan.md](./AE_peterpan.md) file.
 
-Zenodo DOI: TO BE ADDED
+Zenodo DOI: [Link Zenodo](https://doi.org/10.5281/zenodo.19185342)
 
 ## Building
 
@@ -121,4 +122,16 @@ Each folder contains a subfolder with the figure name, and a dedicated readme fo
 
 ## Paper Citation
 
-TO BE ADDED
+If you find this repository useful, please use the following citation:
+
+```latex
+@inproceedings{adaptiveaiepl26sorrentino,
+  title={Adaptive AIE–PL Systems for Efficient End-to-End Pyramidal 3D Image Registration},
+  author={Sorrentino, Giuseppe and Galfano, Paolo S. and Di Salvo, Claudio and  D'Arnese, Eleonora and Conficconi, Davide},
+   booktitle={2026 IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM)},
+  pages={1-12},
+  year={2026},
+  doi="accepted--to--appear",
+  selected={true}
+}
+```
