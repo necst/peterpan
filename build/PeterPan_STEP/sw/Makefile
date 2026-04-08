@@ -75,11 +75,7 @@ run_sw:
 	./$(EXECUTABLE) $(N_COUPLES) $(N_ROWS) $(N_COLS) $(TX) $(TY) $(ANG) $(N_RUNS) $(DEVICE_ID)
 
 $(EXECUTABLE): $(HOST_SRCS)
-	$(CXX) -o3 -o $(EXECUTABLE) $^ $(CXXFLAGS) $(LDFLAGS) $(CFLAGS) $(LIBS)
-# @rm -f ./overlay_hw.xclbin
-# @rm -f ./overlay_hw_emu.xclbin
-# @ln -s ../hw/overlay_hw.xclbin
-# @ln -s ../hw/overlay_hw_emu.xclbin
+	$(CXX) -O3 -o $(EXECUTABLE) $^ $(CXXFLAGS) $(LDFLAGS) $(CFLAGS) $(LIBS)
 
 switch_dataset:
 	$(info )
