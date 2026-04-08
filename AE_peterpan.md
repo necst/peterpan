@@ -195,6 +195,8 @@ make build_sw
 
 The output image will be in the running folder, named `figure6.pdf`.
 
+**NOTE: the hardware execution automatically pads to multiple of 32 images. Such a padding does not happen on the software, causing apparent accuracy mismatches. Please consider this, when analyzing for different input sizes.**
+
 ---
 
 # Figure 7 & 8: Preliminary
