@@ -12,10 +12,10 @@ to iteratively refine transformation parameters based on user-defined settings. 
 ## Requirements
 - Hardware Device: Versal VCK5000 2022.2 QDMA Platform
 - Vitis 2023.1
-- XRT 2023.1
+- XRT 2024.2
 - OpenCV 4.0.0 - static library
-- Python 3.8
-- GCC 7.3.1
+- Python 3.10
+- GCC 11
 - ITK 5.3.0
 - OS: Ubuntu 22.04
   
@@ -78,7 +78,7 @@ Moreover, design parameters can be set in the `default.cfg` file as described in
 1. Source Vitis & XRT
     ```bash
     source <YOUR_PATH_TO_XRT>/setup.sh
-    source <YOUR_PATH_TO_VITIS>/2022.1/settings64.sh
+    source <YOUR_PATH_TO_VITIS>/2023.1/settings64.sh
     ```
 2. Move into the root folder of this repository & build the transformation standalone bitstream
     ```bash
